@@ -1,11 +1,11 @@
 ent-PortableScrubber = переносной скруббер
     .desc = Он скруббит, в переносном смысле!
-ent-SpaceHeater = термостат
-    .desc = Блюспейс-технологическое устройство, изменяющее локальную температуру. Обычно его называют "термостат".
-    .suffix = Незакреплённый
+ent-SpaceHeater = космический обогреватель
+    .desc = Устройство с технологией блюспейс, изменяющее температуру окружения. Обычно его называют "космическим обогревателем".
+    .suffix = Не закреплён
 ent-SpaceHeaterAnchored = { ent-SpaceHeater }
-    .suffix = Закреплённый
+    .suffix = Закреплён
     .desc = { ent-SpaceHeater.desc }
 ent-SpaceHeaterEnabled = { ent-SpaceHeaterAnchored }
-    .suffix = Закреплённый, Включён
+    .suffix = Закреплён, Включен
     .desc = { ent-SpaceHeaterAnchored.desc }

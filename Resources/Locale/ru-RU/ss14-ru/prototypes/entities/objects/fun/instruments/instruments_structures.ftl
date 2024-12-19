@@ -1,5 +1,5 @@
 ent-PianoInstrument = рояль
-    .desc = При необходимости поднять на девятый этаж зовите карго.
+    .desc = При необходимости поднять на девятый этаж, зовите карго.
 ent-UprightPianoInstrument = пианино
     .desc = Я сказал пьянино!
 ent-VibraphoneInstrument = вибрафон

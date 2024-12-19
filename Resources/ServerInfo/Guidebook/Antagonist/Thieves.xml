@@ -1,6 +1,6 @@
 <Document>
   # Воры
-  
+
   <Box>
     [color=#999999][italic]"Йоинк! Я возьму это! И это! О, не возражай, если я возьму!"[/italic][/color]
   </Box>
@@ -44,7 +44,7 @@
   <Box>
     <GuideEntityEmbed Entity="StorageImplanter" Caption="Имплантант"/>
     <GuideEntityEmbed Entity="C4" Caption="Подрывник"/>
-    <GuideEntityEmbed Entity="ChameleonProjector" Caption="хамелеон"/>
+    <GuideEntityEmbed Entity="ChameleonProjector" Caption="Хамелеон"/>
     <GuideEntityEmbed Entity="EncryptionKeyStationMaster" Caption="Связист"/>
   </Box>
   <Box>
@@ -55,7 +55,7 @@
 
   ## Главный предмет коллекции
   Ваша клептомания заведет вас в тупик. Однажды вам захочется украсть несколько статуэток. В другой раз вам захочется украсть промышленную машину.
-  
+
   Неважно. Все они со временем станут частью вашей коллекции.
 
   Вы можете украсть предметы, [bold]если они будут при вас[/bold] когда вы доберетесь до ЦК. В противном случае вы можете украсть более крупные предметы, [bold]оставив их рядом с вашим маяком.[/bold]
@@ -63,12 +63,12 @@
   Некоторые из наиболее  [italic]оживленных[/italic] целей могут не сотрудничать с вами. Убедитесь, что они живы и будут с вами или вашим маяком, когда смена закончится.
 
   Вещи, которые вы можете захотеть заполучить, включаю, и не ограничиваются ими:
-  
+
   <Box>
    <GuideEntityEmbed Entity="ToyFigurineGreytider" Caption="Статуэтки"/>
    <GuideEntityEmbed Entity="PassengerIDCard" Caption="ID карты"/>
    <GuideEntityEmbed Entity="ChemDispenser" Caption="Устройства"/>
    <GuideEntityEmbed Entity="MobCorgiIan" Caption="Животные/Питомцы"/>
   </Box>
-  
+
 </Document>

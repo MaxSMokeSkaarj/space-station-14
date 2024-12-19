@@ -7,7 +7,7 @@ cmd-ban-invalid-severity = { $severity } не является допустим�
 cmd-ban-invalid-arguments = Недопустимое число аргументов
 cmd-ban-hint = <name/user ID>
 cmd-ban-hint-reason = <reason>
-cmd-ban-hint-severity = [severity]
+cmd-ban-hint-severity = [тяжесть]
 cmd-ban-hint-duration = [продолжительность]
 cmd-ban-hint-duration-1 = Навсегда
 cmd-ban-hint-duration-2 = 1 день
@@ -69,7 +69,7 @@ ban-panel-permanent = Постоянный
 ban-panel-ip-hwid-tooltip = Оставьте пустым и установите флажок ниже, чтобы использовать данные последнего подключения
 ban-panel-severity = Тяжесть:
 # Ban string
-server-ban-string = { $admin } created a { $severity } severity server ban that expires { $expires } for [{ $name }, { $ip }, { $hwid }], with reason: { $reason }
+server-ban-string = { $admin } выдан с { $severity } тяжестью, бан истекает { $expires } данный [{ $name }, { $ip }, { $hwid }], по причине: { $reason }
 ban-panel-erase = Стереть сообщения в чате и игрока из раунда
 server-ban-string-never = никогда
 server-ban-string-no-pii = { $admin } установил серверный бан { $severity } тяжести, который истечёт { $expires } у { $name } с причиной: { $reason }

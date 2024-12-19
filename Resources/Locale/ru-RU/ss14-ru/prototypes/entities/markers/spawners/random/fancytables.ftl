@@ -1,2 +1,2 @@
-ent-FancyTableSpawner = спавнер случайный красивый стол
+ent-FancyTableSpawner = случайный роскошный стол
     .desc = { ent-MarkerBase.desc }

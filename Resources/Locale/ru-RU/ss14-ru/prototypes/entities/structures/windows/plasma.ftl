@@ -3,5 +3,5 @@ ent-PlasmaWindow = плазменное окно
 ent-PlasmaWindowDirectional = направленное плазменное окно
     .desc = Смотри не заляпай.
 ent-PlasmaWindowDiagonal = { ent-PlasmaWindow }
-    .suffix = Диагональ
+    .suffix = Диагональное
     .desc = { ent-PlasmaWindow.desc }

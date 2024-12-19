@@ -3,5 +3,5 @@ ent-ClockworkWindow = заводное окно
 ent-WindowClockworkDirectional = направленное заводное окно
     .desc = Смотри не заляпай латунь.
 ent-ClockworkWindowDiagonal = { ent-ClockworkWindow }
-    .suffix = Диагональ
+    .suffix = Диагональное
     .desc = { ent-ClockworkWindow.desc }

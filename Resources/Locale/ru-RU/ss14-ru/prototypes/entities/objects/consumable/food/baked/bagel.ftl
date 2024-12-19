@@ -1,6 +1,6 @@
 ent-FoodBagelBase = { ent-FoodInjectableBase }
-    .desc = Вкуснейший бублик.
-ent-FoodBagel = бублик
+    .desc = Вкуснейший бейгл.
+ent-FoodBagel = бейгл
     .desc = { ent-FoodBagelBase.desc }
-ent-FoodBagelPoppy = бублик с маком
-    .desc = Вкуснейший бублик с маковыми семечками, содержащими бикаридин.
+ent-FoodBagelPoppy = бейгл с маком
+    .desc = Вкусный бейгл, посыпанный маком, настоянным на бикаридине.

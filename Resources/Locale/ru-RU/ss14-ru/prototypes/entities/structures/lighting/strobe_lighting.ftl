@@ -1,11 +1,11 @@
 ent-AlwaysPoweredStrobeLight = стробоскоп
-    .desc = ЧТО?! Извини, всё, что я слышу, это УИИ-УУУ-УИИ-УУУ!
+    .desc = А?! Извините, я слышу только УИ-ООУ-УИ-ООУ!
     .suffix = Всегда запитанный
 ent-PoweredStrobeLightEmpty = стробоскоп
-    .desc = ЧТО?! Извини, всё, что я слышу, это УИИ-УУУ-УИИ-УУУ!
+    .desc = А?! Извините, я слышу только УИ-ООУ-УИ-ООУ!
     .suffix = Пустой
 ent-PoweredStrobeLightPolice = { ent-PoweredStrobeLightEmpty }
-    .suffix = Пустой, Полиция
+    .suffix = Пустой, Полицейский
     .desc = { ent-PoweredStrobeLightEmpty.desc }
 ent-PoweredStrobeLightSiren = { ent-PoweredStrobeLightEmpty }
     .suffix = Пустой, Сирена

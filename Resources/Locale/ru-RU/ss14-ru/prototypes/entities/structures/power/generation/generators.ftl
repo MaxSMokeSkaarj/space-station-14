@@ -1,14 +1,14 @@
 ent-BaseGenerator = генератор
     .desc = Высокоэффективный термоэлектрический генератор.
 ent-BaseGeneratorWallmount = настенный генератор
-    .desc = Высокоэффективный термоэлектрический генератор, помещённый в настенный шкаф.
+    .desc = Высокоэффективный термоэлектрический генератор, помещенный в настенный шкаф.
 ent-BaseGeneratorWallmountFrame = каркас настенного генератора
     .desc = Строительный каркас для настенного генератора.
 ent-GeneratorBasic = { ent-BaseGenerator }
     .suffix = Базовый, 3кВт
     .desc = { ent-BaseGenerator.desc }
 ent-GeneratorBasic15kW = { ent-BaseGenerator }
-    .suffix = Базовый, 15kW
+    .suffix = Базовый, 15кВт
     .desc = { ent-BaseGenerator.desc }
 ent-GeneratorWallmountBasic = { ent-BaseGeneratorWallmount }
     .suffix = Базовый, 3кВт

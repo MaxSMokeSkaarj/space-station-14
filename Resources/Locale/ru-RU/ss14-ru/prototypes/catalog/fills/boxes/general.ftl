@@ -8,8 +8,6 @@ ent-BoxLighttube = коробка лампочек-трубок
     .desc = { ent-BoxLightbulb.desc }
 ent-BoxLightMixed = коробка смешанных лампочек
     .desc = { ent-BoxLightbulb.desc }
-ent-BoxLighttubeHoliday = коробка праздничных лампочек-трубок
-    .desc = { ent-BoxLightbulb.desc }
 ent-BoxPDA = коробка КПК
     .desc = Коробка запасных микрокомпьютеров КПК.
 ent-BoxID = коробка ID карт
@@ -49,11 +47,8 @@ ent-BoxEncryptionKeySecurity = коробка ключей шифрования 
     .desc = { ent-BoxEncryptionKeyPassenger.desc }
 ent-BoxEncryptionKeyService = коробка ключей шифрования сервисного отдела
     .desc = { ent-BoxEncryptionKeyPassenger.desc }
-# Corvax-HiddenDesc-Start
-ent-BoxEncryptionKeySyndie = коробка ключей шифрования
-    .suffix = коробка ключей шифрования Синдиката
-    .desc = { ent-BoxEncryptionKeyPassenger.desc }
-# Corvax-HiddenDesc-End
+ent-BoxEncryptionKeySyndie = коробка ключей шифрования синдиката
+    .desc = Два ключа шифрования синдиката по цене одного. Миниатюрный для простоты использования.
 ent-BoxLeadLined = освинцованная коробка
     .desc = Эта коробка препятствует распространению радиации.
     .suffix = DEBUG

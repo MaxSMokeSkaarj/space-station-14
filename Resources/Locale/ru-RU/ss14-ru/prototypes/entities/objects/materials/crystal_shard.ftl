@@ -1,7 +1,7 @@
 ent-ShardCrystalBase = осколок кристалла
-    .desc = Небольшой кусочек кристалла.
+    .desc = Маленький кусочек кристалла.
 ent-ShardCrystalCyan = голубой осколок кристалла
-    .desc = Небольшой кусочек кристалла.
+    .desc = Маленький кусочек кристалла.
 ent-ShardCrystalBlue = синий осколок кристалла
     .desc = { ent-ShardCrystalBase.desc }
 ent-ShardCrystalOrange = оранжевый осколок кристалла
