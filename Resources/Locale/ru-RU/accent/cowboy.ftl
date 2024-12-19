@@ -1,9 +1,9 @@
 accent-cowboy-words-1 = alcohol
-accent-cowboy-replacement-1 = firewater
+accent-cowboy-replacement-1 = огненная вода
 accent-cowboy-words-2 = alien
-accent-cowboy-replacement-2 = space critter
+accent-cowboy-replacement-2 = космическое существо
 accent-cowboy-words-3 = aliens
-accent-cowboy-replacement-3 = space critters
+accent-cowboy-replacement-3 = космические существа
 accent-cowboy-words-4 = ambush
 accent-cowboy-replacement-4 = bush whack
 accent-cowboy-words-5 = angry
