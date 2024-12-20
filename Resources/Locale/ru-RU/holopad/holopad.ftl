@@ -120,32 +120,32 @@ holopad-security-locker-room = Безопасность - Раздевалка
 holopad-security-brig-med = Безопасность - Медицинская служба арестантского
 
 # Служба
-holopad-service-janitor = Серивс - Уборщик
-holopad-service-bar = Серивс - Бар
-holopad-service-kitchen = Серивс - Кухня
-holopad-service-botany = Серивс - Ботаника
-holopad-service-chapel = Серивс - Церковь
-holopad-service-library = Серивс - Библиотека
-holopad-service-newsroom = Серивс - Редакция
-holopad-service-zookeeper = Серивс - Зоотехник
-holopad-service-boxer = Серивс - Боксер
-holopad-service-clown = Серивс - Клоун
-holopad-service-musician = Серивс - Музыкант
-holopad-service-mime = Серивс - Мим
-holopad-service-clown-mime = Серивс - Клоун/Мим
-holopad-service-gameroom = Серивс - Игровая комната
+holopad-service-janitor = Сервис - Уборщик
+holopad-service-bar = Сервис - Бар
+holopad-service-kitchen = Сервис - Кухня
+holopad-service-botany = Сервис - Ботаника
+holopad-service-chapel = Сервис - Церковь
+holopad-service-library = Сервис - Библиотека
+holopad-service-newsroom = Сервис - Редакция
+holopad-service-zookeeper = Сервис - Зоотехник
+holopad-service-boxer = Сервис - Боксер
+holopad-service-clown = Сервис - Клоун
+holopad-service-musician = Сервис - Музыкант
+holopad-service-mime = Сервис - Мим
+holopad-service-clown-mime = Сервис - Клоун/Мим
+holopad-service-gameroom = Сервис - Игровая комната
 
 # ИИ
 holopad-ai-core = ИИ - Ядро
 holopad-ai-main = ИИ - Основной
-holopad-ai-upload = ИИ - ЗаКаргока
+holopad-ai-upload = ИИ - Загрузка
 holopad-ai-backup-power = ИИ - Резервное питание
 holopad-ai-entrance = ИИ - Вход
 holopad-ai-chute = ИИ - Спусковой
 
 # Долгосрочная связь
 holopad-station-bridge = Станция - Мостик
-holopad-station-cargo-bay = Станция - Каргоовой отсек
+holopad-station-cargo-bay = Станция - Грузовой отсек
 
 # Центр Командования
 holopad-centcomm-evac = Центр Командования - Эвакуационный шаттл
