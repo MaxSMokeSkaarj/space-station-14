@@ -87,7 +87,7 @@ holopad-medical-breakroom = Медицина - Комната отдыха
 
 # Карго
 holopad-cargo-front = Карго - Стойка
-holopad-cargo-bay = Карго - Каргоовой отсек
+holopad-cargo-bay = Карго - Грузовой отсек
 holopad-cargo-salvage-bay = Карго - Спасательный отсек
 holopad-cargo-breakroom = Карго - Комната отдыха
 holopad-cargo-ats = Карго - ATS
