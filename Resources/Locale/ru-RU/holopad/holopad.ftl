@@ -42,37 +42,37 @@ holopad-ai-is-unable-to-reach-holopad = Вы не можете взаимоде�
 
 # Прототипы картирования
 # Общие
-holopad-general-tools = Общие - Инструменты
-holopad-general-cryosleep = Общие - Криосон
-holopad-general-theater = Общие - Театр
-holopad-general-disposals = Общие - Утилизация
-holopad-general-eva = Общие - Хранение EVA
-holopad-general-lounge = Общие - Гостиная
-holopad-general-arcade = Общие - Аркада
-holopad-general-evac = Общие - Эвакуация
-holopad-general-arrivals = Общие - Прибытия
+holopad-general-tools = Общий -Инструменты
+holopad-general-cryosleep = Общий -Криосон
+holopad-general-theater = Общий -Театр
+holopad-general-disposals = Общий -Утилизация
+holopad-general-eva = Общий -Хранение EVA
+holopad-general-lounge = Общий -Гостиная
+holopad-general-arcade = Общий -Аркада
+holopad-general-evac = Общий -Эвакуация
+holopad-general-arrivals = Общий -Прибытия
 
 # Команда
-holopad-command-bridge = Команда - Мостик
-holopad-command-vault = Команда - Хранилище
-holopad-command-bridge-hallway = Команда - Коридор мостика
-holopad-command-meeting-room = Команда - Конференц-зал
-holopad-command-lounge = Команда - Гостиная
-holopad-command-captain = Команда - Капитан
-holopad-command-hop = Команда - Глава Операций
-holopad-command-cmo = Команда - Главный Медицинский Офицер
-holopad-command-qm = Команда - Главный Снабженец
-holopad-command-ce = Команда - Главный Инженер
-holopad-command-rd = Команда - Исследования и Разработка
-holopad-command-hos = Команда - Главный Офицер Безопасности
+holopad-command-bridge = Командый - Мостик
+holopad-command-vault = Командый - Хранилище
+holopad-command-bridge-hallway = Командый - Коридор мостика
+holopad-command-meeting-room = Командый - Конференц-зал
+holopad-command-lounge = Командый - Гостиная
+holopad-command-captain = Командый - Капитан
+holopad-command-hop = Командый - Глава Персонала
+holopad-command-cmo = Командый - Главный Врач
+holopad-command-qm = Командый - Кватермейстрер
+holopad-command-ce = Командый - Старший Инженер
+holopad-command-rd = Командый - Научный руководитель
+holopad-command-hos = Командый - Глава Службы Безопасностиу
 
 # Наука
-holopad-science-anomaly = Наука - Аномалия
-holopad-science-artifact = Наука - Артефакт
-holopad-science-robotics = Наука - Робототехника
-holopad-science-rnd = Наука - НИОКР
-holopad-science-front = Наука - Фронт
-holopad-science-breakroom = Наука - Комната отдыха
+holopad-science-anomaly = РНД - Аномалия
+holopad-science-artifact = РНД - Артефакт
+holopad-science-robotics = РНД - Робототехника
+holopad-science-rnd = РНД - НИОКР
+holopad-science-front = РНД - Фронт
+holopad-science-breakroom = РНД - Комната отдыха
 
 # Медицина
 holopad-medical-medbay = Медицина - Медицинский отсек
@@ -107,12 +107,12 @@ holopad-engineering-power = Инженерия - Энергетика
 
 # Безопасность
 holopad-security-front = Безопасность - Фронт
-holopad-security-brig = Безопасность - Арестантский
-holopad-security-warden = Безопасность - Надзиратель
-holopad-security-interrogation = Безопасность - Допрос
+holopad-security-brig = Безопасность - Бриг
+holopad-security-warden = Безопасность - Варден
+holopad-security-interrogation = Безопасность - Допросная
 holopad-security-breakroom = Безопасность - Комната отдыха
 holopad-security-detective = Безопасность - Детектив
-holopad-security-perma = Безопасность - Перманентный
+holopad-security-perma = Безопасность - Пермабриг
 holopad-security-courtroom = Безопасность - Судебный зал
 holopad-security-lawyer = Безопасность - Адвокат
 holopad-security-armory = Безопасность - Арсенал
@@ -120,20 +120,20 @@ holopad-security-locker-room = Безопасность - Раздевалка
 holopad-security-brig-med = Безопасность - Медицинская служба арестантского
 
 # Служба
-holopad-service-janitor = Служба - Уборщик
-holopad-service-bar = Служба - Бар
-holopad-service-kitchen = Служба - Кухня
-holopad-service-botany = Служба - Ботаника
-holopad-service-chapel = Служба - Капелла
-holopad-service-library = Служба - Библиотека
-holopad-service-newsroom = Служба - Редакция
-holopad-service-zookeeper = Служба - Смотритель зоопарка
-holopad-service-boxer = Служба - Боксер
-holopad-service-clown = Служба - Клоун
-holopad-service-musician = Служба - Музыкант
-holopad-service-mime = Служба - Мим
-holopad-service-clown-mime = Служба - Клоун/Мим
-holopad-service-gameroom = Служба - Игровая комната
+holopad-service-janitor = Серивс - Уборщик
+holopad-service-bar = Серивс - Бар
+holopad-service-kitchen = Серивс - Кухня
+holopad-service-botany = Серивс - Ботаника
+holopad-service-chapel = Серивс - Капелла
+holopad-service-library = Серивс - Библиотека
+holopad-service-newsroom = Серивс - Редакция
+holopad-service-zookeeper = Серивс - Смотритель зоопарка
+holopad-service-boxer = Серивс - Боксер
+holopad-service-clown = Серивс - Клоун
+holopad-service-musician = Серивс - Музыкант
+holopad-service-mime = Серивс - Мим
+holopad-service-clown-mime = Серивс - Клоун/Мим
+holopad-service-gameroom = Серивс - Игровая комната
 
 # ИИ
 holopad-ai-core = ИИ - Ядро
@@ -149,3 +149,35 @@ holopad-station-cargo-bay = Станция - Грузовой отсек
 
 # Центр Командования
 holopad-centcomm-evac = Центр Командования - Эвакуационный шаттл
+
+ent-HolopadBase = Голопад
+    .desc = Напольное устройство для проецирования голограмм.
+ent-HolopadBluespaceBase = Блюспейс голопад
+    .desc = Эксперементальное напольное устройство для проецирования голограмм с помощью блюспейс технологии.
+
+ent-Holopad =  { ent-HolopadBase }
+    .desc = { ent-HolopadBase.desc }
+
+ent-HolopadAiBackupPower =  { ent-HolopadBase }
+    .desc = { ent-HolopadBase.desc }
+
+ent-HolopadAiChute =  { ent-HolopadBase }
+    .desc = { ent-HolopadBase.desc }
+
+ent-HolopadAiCore =  { ent-HolopadBase }
+    .desc = { ent-HolopadBase.desc }
+
+ent-HolopadAiEntrance =  { ent-HolopadBase }
+    .desc = { ent-HolopadBase.desc }
+
+ent-HolopadAiMain =  { ent-HolopadBase }
+    .desc = { ent-HolopadBase.desc }
+
+ent-HolopadAiUpload =  { ent-HolopadBase }
+    .desc = { ent-HolopadBase.desc }
+
+ent-HolopadEngineeringAME =  { ent-HolopadBase }
+    .desc = { ent-HolopadBase.desc }
+
+ent-HolopadScienceAnomaly =  { ent-HolopadBase }
+    .desc = { ent-HolopadBase.desc }
