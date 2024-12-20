@@ -70,8 +70,8 @@ holopad-command-hos = Командый - Глава Службы Безопас�
 holopad-science-anomaly = РНД - Аномалия
 holopad-science-artifact = РНД - Артефакт
 holopad-science-robotics = РНД - Робототехника
-holopad-science-rnd = РНД - НИОКР
-holopad-science-front = РНД - Фронт
+holopad-science-rnd = РНД - РНД
+holopad-science-front = РНД - Стойка
 holopad-science-breakroom = РНД - Комната отдыха
 
 # Медицина
@@ -82,31 +82,31 @@ holopad-medical-morgue = Медицина - Морг
 holopad-medical-surgery = Медицина - Хирургия
 holopad-medical-paramedic = Медицина - Парамедик
 holopad-medical-virology = Медицина - Вирусология
-holopad-medical-front = Медицина - Фронт
+holopad-medical-front = Медицина - Стойка
 holopad-medical-breakroom = Медицина - Комната отдыха
 
-# Груз
-holopad-cargo-front = Груз - Фронт
-holopad-cargo-bay = Груз - Грузовой отсек
-holopad-cargo-salvage-bay = Груз - Спасательный отсек
-holopad-cargo-breakroom = Груз - Комната отдыха
-holopad-cargo-ats = Груз - ATS
-holopad-cargo-shuttle = Груз - Шаттл
+# Карго
+holopad-cargo-front = Карго - Стойка
+holopad-cargo-bay = Карго - Каргоовой отсек
+holopad-cargo-salvage-bay = Карго - Спасательный отсек
+holopad-cargo-breakroom = Карго - Комната отдыха
+holopad-cargo-ats = Карго - ATS
+holopad-cargo-shuttle = Карго - Шаттл
 
 # Инженерия
-holopad-engineering-atmos-front = Атмосфера - Фронт
+holopad-engineering-atmos-front = Атмосфера - Стойка
 holopad-engineering-atmos-main = Атмосфера - Основной отсек
-holopad-engineering-atmos-teg = Атмосфера - TEG
+holopad-engineering-atmos-teg = Атмосфера - ТЭГ
 holopad-engineering-storage = Инженерия - Хранение
 holopad-engineering-breakroom = Инженерия - Комната отдыха
-holopad-engineering-front = Инженерия - Фронт
+holopad-engineering-front = Инженерия - Стойка
 holopad-engineering-telecoms = Инженерия - Телекоммуникации
 holopad-engineering-tech-vault = Инженерия - Техническое хранилище
-holopad-engineering-ame = Инженерия - AME
+holopad-engineering-ame = Инженерия - ДАМ
 holopad-engineering-power = Инженерия - Энергетика
 
 # Безопасность
-holopad-security-front = Безопасность - Фронт
+holopad-security-front = Безопасность - Стойка
 holopad-security-brig = Безопасность - Бриг
 holopad-security-warden = Безопасность - Варден
 holopad-security-interrogation = Безопасность - Допросная
@@ -127,7 +127,7 @@ holopad-service-botany = Серивс - Ботаника
 holopad-service-chapel = Серивс - Церковь
 holopad-service-library = Серивс - Библиотека
 holopad-service-newsroom = Серивс - Редакция
-holopad-service-zookeeper = Серивс - Смотритель зоопарка
+holopad-service-zookeeper = Серивс - Зоотехник
 holopad-service-boxer = Серивс - Боксер
 holopad-service-clown = Серивс - Клоун
 holopad-service-musician = Серивс - Музыкант
@@ -138,14 +138,14 @@ holopad-service-gameroom = Серивс - Игровая комната
 # ИИ
 holopad-ai-core = ИИ - Ядро
 holopad-ai-main = ИИ - Основной
-holopad-ai-upload = ИИ - Загрузка
+holopad-ai-upload = ИИ - ЗаКаргока
 holopad-ai-backup-power = ИИ - Резервное питание
 holopad-ai-entrance = ИИ - Вход
 holopad-ai-chute = ИИ - Спусковой
 
 # Долгосрочная связь
 holopad-station-bridge = Станция - Мостик
-holopad-station-cargo-bay = Станция - Грузовой отсек
+holopad-station-cargo-bay = Станция - Каргоовой отсек
 
 # Центр Командования
 holopad-centcomm-evac = Центр Командования - Эвакуационный шаттл
