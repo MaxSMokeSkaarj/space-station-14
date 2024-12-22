@@ -1,22 +1,22 @@
 ### Special messages used by internal localizer stuff.
 
-# Used internally by the PRESSURE() function.
+# Используется в функции PRESSURE().
 zzzz-fmt-pressure = { TOSTRING($divided, "F1") } { $places ->
-    [0] kPa
-    [1] MPa
-    [2] GPa
-    [3] TPa
-    [4] PBa
+    [0] кПа
+    [1] МПа
+    [2] ГПа
+    [3] ТПа
+    [4] ППа
     *[5] ???
 }
 
-# Used internally by the POWERWATTS() function.
+# Используется в функции POWERWATTS().
 zzzz-fmt-power-watts = { TOSTRING($divided, "F1") } { $places ->
-    [0] W
-    [1] kW
-    [2] MW
-    [3] GW
-    [4] TW
+    [0] Вт
+    [1] кВт
+    [2] МВт
+    [3] ГВт
+    [4] ТВт
     *[5] ???
 }
 
