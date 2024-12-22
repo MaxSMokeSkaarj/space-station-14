@@ -1,42 +1,43 @@
-analysis-console-menu-title = analysis console
-analysis-console-server-list-button = Server List
-analysis-console-scan-button = Scan
-analysis-console-scan-tooltip-info = Scan artifacts to learn information about their structure.
-analysis-console-print-button = Print
-analysis-console-print-tooltip-info = Print out the current information about the artifact.
-analysis-console-extract-button = Extract
-analysis-console-extract-button-info = Extract points from an artifact based on the newly explored nodes.
-analysis-console-bias-up = Up
-analysis-console-bias-down = Down
-analysis-console-bias-button-info-up = Toggles the bias an artifact has in moving between its nodes. Up heads toward zero depth.
-analysis-console-bias-button-info-down = Toggles the bias an artifact has in moving between its nodes. Down heads toward ever-higher depths.
+analysis-console-menu-title = Аналитическая консоль
+analysis-console-server-list-button = Список серверов
+analysis-console-scan-button = Сканировать
+analysis-console-scan-tooltip-info = Поместите артефакт на сканер, что-бы получить о нём информацию.
+analysis-console-print-button = Печатать
+analysis-console-print-tooltip-info = Распечатайте текущую информацию об артефакте.
+analysis-console-extract-button = Извлечь
+analysis-console-extract-button-info = Извлекайте очки из артефакта на основе недавно исследованных узлов.
+analysis-console-bias-up = Вверх
+analysis-console-bias-down = Вниз
+analysis-console-bias-button-info-up = Переключает смещение артефакта при перемещении между его узлами. Вверх направляется к нулевой глубине.
+analysis-console-bias-button-info-down = Переключает смещение артефакта при перемещении между его узлами. Опускается на все большую глубину.
 
-analysis-console-info-no-scanner = No analyzer connected! Please connect one using a multitool.
-analysis-console-info-no-artifact = No artifact present! Place one on the pad then scan for information.
-analysis-console-info-ready = Systems operational. Ready to scan.
+analysis-console-info-no-scanner = Анализатор не подключен! Пожалуйста, подключите его с помощью мультитула.
+analysis-console-info-no-artifact = Артефактов нет! Поместите один из них на анализатор, затем отсканируйте информацию.
+analysis-console-info-ready = Системы в рабочем состоянии. Готовы к сканированию.
 
-analysis-console-info-id = NODE_ID: {$id}
-analysis-console-info-depth = DEPTH: {$depth}
-analysis-console-info-triggered-true = ACTIVATED: TRUE
-analysis-console-info-triggered-false = ACTIVATED: FALSE
-analysis-console-info-effect = REACTION: {$effect}
-analysis-console-info-trigger = STIMULUS: {$trigger}
-analysis-console-info-edges = EDGES: {$edges}
-analysis-console-info-value = UNEXTRACTED_VALUE: {$value}
+analysis-console-info-id = ID узла: {$id}
+analysis-console-info-depth = Глубина: {$depth}
+analysis-console-info-triggered-true = Активировано: Да
+analysis-console-info-triggered-false = Активировано: Нет
+analysis-console-info-effect = Реакция: {$effect}
+analysis-console-info-trigger = Активатор: {$trigger}
+analysis-console-info-edges = Соединения: {$edges}
+analysis-console-info-value = Извлекаемые очки: {$value}
 
-analysis-console-info-scanner = Scanning...
-analysis-console-info-scanner-paused = Paused.
+analysis-console-info-scanner = Сканирование...
+analysis-console-info-scanner-paused = Остановленно.
 analysis-console-progress-text = {$seconds ->
-    [one] T-{$seconds} second
-    *[other] T-{$seconds} seconds
+        [one] T-{ $seconds } секунда
+        [few] T-{ $seconds } секунды
+       *[other] T-{ $seconds } секунд
 }
-analysis-console-no-server-connected = Cannot extract. No server connected.
-analysis-console-no-artifact-placed = No artifact on scanner.
-analysis-console-no-points-to-extract = No points to extract.
+analysis-console-no-server-connected = Невозможно извлечь очки. Сервер оффлайн.
+analysis-console-no-artifact-placed = На скканере нет артефактов.
+analysis-console-no-points-to-extract = Извлекаемые очки отсутствуют.
 
-analyzer-artifact-component-upgrade-analysis = analysis duration
+analyzer-artifact-component-upgrade-analysis = Время анализа
 
-analysis-console-print-popup = The console printed out a report.
-analyzer-artifact-extract-popup = Energy shimmers on the artifact's surface!
+analysis-console-print-popup = Отчёт печатается.
+analyzer-artifact-extract-popup = Поверхность артефакта мерцает энергией!
 
-analysis-report-title = Artifact Report: Node {$id}
+analysis-report-title = Отчёт об артефакте: Узел {$id}
