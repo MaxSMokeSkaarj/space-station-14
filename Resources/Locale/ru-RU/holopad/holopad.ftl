@@ -1,456 +1,152 @@
-﻿# Заголовки окна
+﻿# Window headers
 holopad-window-title = {CAPITALIZE($title)}
-holopad-window-subtitle = [color=white][bold]Голографическая система связи[/bold][/color]
-holopad-window-options = [color=darkgray][font size=10][italic]Пожалуйста, выберите вариант из списка ниже[/italic][/font][/color]
+holopad-window-subtitle = [color=white][bold]Holographic communication system[/bold][/color]
+holopad-window-options = [color=darkgray][font size=10][italic]Please select an option from the list below[/italic][/font][/color]
 
-# Статус вызова
-holopad-window-no-calls-in-progress = Нет активных голографических вызовов
-holopad-window-incoming-call = Входящий голографический вызов от:
-holopad-window-outgoing-call = Попытка установить соединение...
-holopad-window-call-in-progress = Голографический вызов в процессе
-holopad-window-call-ending = Отключение...
-holopad-window-call-rejected = Не удалось установить соединение
-holopad-window-ai-request = Ваше присутствие запрашивается у:
-holopad-window-emergency-broadcast-in-progress = [color=#cf2f2f][bold]Выполняется экстренная трансляция[/bold][/color]
-holopad-window-controls-locked-out = Управление этим устройством заблокировано для:
-holopad-window-controls-unlock-countdown = Оно автоматически разблокируется через: {$countdown}
+# Call status
+holopad-window-no-calls-in-progress = No holo-calls in progress
+holopad-window-incoming-call = Incoming holo-call from:
+holopad-window-outgoing-call = Attempting to establish a connection...
+holopad-window-call-in-progress = Holo-call in progress
+holopad-window-call-ending = Disconnecting...
+holopad-window-call-rejected = Unable to establish a connection
+holopad-window-ai-request = Your presence is requested by:
+holopad-window-emergency-broadcast-in-progress = [color=#cf2f2f][bold]Emergency broadcast in progress[/bold][/color]
+holopad-window-controls-locked-out = Control of this device has been locked to:
+holopad-window-controls-unlock-countdown = It will automatically unlock in: {$countdown}
 
-# Кнопки
-holopad-window-answer-call = Ответить на вызов
-holopad-window-end-call = Завершить вызов
-holopad-window-request-station-ai = Запросить ИИ станции
-holopad-window-activate-projector = Активировать проектор
-holopad-window-emergency-broadcast = Экстренная трансляция
-holopad-window-emergency-broadcast-with-countdown = Экстренная трансляция ({$countdown})
-holopad-window-access-denied = Доступ запрещен
+# Buttons
+holopad-window-answer-call = Answer call
+holopad-window-end-call = End call
+holopad-window-request-station-ai = Request station AI
+holopad-window-activate-projector = Activate projector
+holopad-window-emergency-broadcast = Emergency broadcast
+holopad-window-emergency-broadcast-with-countdown = Emergency broadcast ({$countdown})
+holopad-window-access-denied = Access denied
 
-# Список контактов
-holopad-window-select-contact-from-list = Выберите контакт для начала голографического вызова
-holopad-window-fetching-contacts-list = В данный момент нет доступных голографических панелей
+# Contact list
+holopad-window-select-contact-from-list = Select a contact to initiate a holo-call
+holopad-window-fetching-contacts-list = No holopads are currently contactable
 holopad-window-contact-label = {CAPITALIZE($label)}
 
-# Примечания
-holopad-window-flavor-left = ⚠ Не входите, пока проектор активен
+# Flavor
+holopad-window-flavor-left = ⚠ Do not enter while projector is active
 holopad-window-flavor-right = v3.0.9
 
-# Голограммы
-holopad-hologram-name = голограмма {THE($name)}
-
-# Действия с голографической панелью
-holopad-activate-projector-verb = Активировать проектор голографической панели
-holopad-ai-is-unable-to-reach-holopad = Вы не можете взаимодействовать с источником вызова, он слишком далеко от вашего ядра.
-
-# Прототипы картирования
-# Общие
-holopad-general-tools = Общий - Инструменты
-holopad-general-cryosleep = Общий - Криосон
-holopad-general-theater = Общий - Театр
-holopad-general-disposals = Общий - Утилизация
-holopad-general-eva = Общий - Хранение EVA
-holopad-general-lounge = Общий - Гостиная
-holopad-general-arcade = Общий - Аркада
-holopad-general-evac = Общий - Эвакуация
-holopad-general-arrivals = Общий - Прибытие
-
-# Команда
-holopad-command-bridge = Командый - Мостик
-holopad-command-vault = Командый - Хранилище
-holopad-command-bridge-hallway = Командый - Коридор мостика
-holopad-command-meeting-room = Командый - Конференц-зал
-holopad-command-lounge = Командый - Гостиная
-holopad-command-captain = Командый - Капитан
-holopad-command-hop = Командый - Глава Персонала
-holopad-command-cmo = Командый - Главный Врач
-holopad-command-qm = Командый - Кватермейстрер
-holopad-command-ce = Командый - Старший Инженер
-holopad-command-rd = Командый - Научный руководитель
-holopad-command-hos = Командый - Глава Службы Безопасностиу
-
-# Наука
-holopad-science-anomaly = РНД - Аномалия
-holopad-science-artifact = РНД - Артефакт
-holopad-science-robotics = РНД - Робототехника
-holopad-science-rnd = РНД - РНД
-holopad-science-front = РНД - Стойка
-holopad-science-breakroom = РНД - Комната отдыха
-
-# Медицина
-holopad-medical-medbay = Медицина - Медицинский отсек
-holopad-medical-chemistry = Медицина - Химия
-holopad-medical-cryopods = Медицина - Криоподы
-holopad-medical-morgue = Медицина - Морг
-holopad-medical-surgery = Медицина - Хирургия
-holopad-medical-paramedic = Медицина - Парамедик
-holopad-medical-virology = Медицина - Вирусология
-holopad-medical-front = Медицина - Стойка
-holopad-medical-breakroom = Медицина - Комната отдыха
-
-# Карго
-holopad-cargo-front = Карго - Стойка
-holopad-cargo-bay = Карго - Грузовой отсек
-holopad-cargo-salvage-bay = Карго - Спасательный отсек
-holopad-cargo-breakroom = Карго - Комната отдыха
-holopad-cargo-ats = Карго - ATS
-holopad-cargo-shuttle = Карго - Шаттл
-
-# Инженерия
-holopad-engineering-atmos-front = Атмосфера - Стойка
-holopad-engineering-atmos-main = Атмосфера - Основной отсек
-holopad-engineering-atmos-teg = Атмосфера - ТЭГ
-holopad-engineering-storage = Инженерия - Хранение
-holopad-engineering-breakroom = Инженерия - Комната отдыха
-holopad-engineering-front = Инженерия - Стойка
-holopad-engineering-telecoms = Инженерия - Телекоммуникации
-holopad-engineering-tech-vault = Инженерия - Техническое хранилище
-holopad-engineering-ame = Инженерия - ДАМ
-holopad-engineering-power = Инженерия - Энергетика
-
-# Безопасность
-holopad-security-front = Безопасность - Стойка
-holopad-security-brig = Безопасность - Бриг
-holopad-security-warden = Безопасность - Варден
-holopad-security-interrogation = Безопасность - Допросная
-holopad-security-breakroom = Безопасность - Комната отдыха
-holopad-security-detective = Безопасность - Детектив
-holopad-security-perma = Безопасность - Пермабриг
-holopad-security-courtroom = Безопасность - Судебный зал
-holopad-security-lawyer = Безопасность - Адвокат
-holopad-security-armory = Безопасность - Арсенал
-holopad-security-locker-room = Безопасность - Раздевалка
-holopad-security-brig-med = Безопасность - Медицинская служба арестантского
-
-# Служба
-holopad-service-janitor = Сервис - Уборщик
-holopad-service-bar = Сервис - Бар
-holopad-service-kitchen = Сервис - Кухня
-holopad-service-botany = Сервис - Ботаника
-holopad-service-chapel = Сервис - Церковь
-holopad-service-library = Сервис - Библиотека
-holopad-service-newsroom = Сервис - Редакция
-holopad-service-zookeeper = Сервис - Зоотехник
-holopad-service-boxer = Сервис - Боксер
-holopad-service-clown = Сервис - Клоун
-holopad-service-musician = Сервис - Музыкант
-holopad-service-mime = Сервис - Мим
-holopad-service-clown-mime = Сервис - Клоун/Мим
-holopad-service-gameroom = Сервис - Игровая комната
-
-# ИИ
-holopad-ai-core = ИИ - Ядро
-holopad-ai-main = ИИ - Основной
-holopad-ai-upload = ИИ - Загрузка
-holopad-ai-backup-power = ИИ - Резервное питание
-holopad-ai-entrance = ИИ - Вход
-holopad-ai-chute = ИИ - Спусковой
-
-# Долгосрочная связь
-holopad-station-bridge = Станция - Мостик
-holopad-station-cargo-bay = Станция - Грузовой отсек
-
-# Центр Командования
-holopad-centcomm-evac = Центр Командования - Эвакуационный шаттл
-
-
-ent-HolopadBase = Голопад
-    .desc = Напольное устройство для проецирования голограмм.
-
-ent-HolopadBluespaceBase = Блюспейс голопад
-    .desc = Эксперементальное напольное устройство для проецирования голограмм с помощью блюспейс технологии.
-
-ent-HolopadLongRangeBase = Голопад дальнего действия
-    .desc = Эксперементальное напольное устройство для проецирования голограмм на дальние растояния.
-
-
-ent-HolopadUnlimitedRange = Голопад неоганиченного радиуса
-    .desc = Эксперементальное напольное устройство для проецирования голограмм на ОООООООООООЧЕНЬ дальние растояния.
-
-ent-HolopadBluespace = { ent-HolopadBluespaceBase }
-    .desc = { ent-HolopadBluespaceBase.desc }
-
-ent-Holopad = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadAiBackupPower = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadAiChute = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadAiCore = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadAiEntrance = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadAiMain = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadAiUpload = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadEngineeringAME = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadScienceAnomaly = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadGeneralArcade = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadSecurityArmory = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadGeneralArrivals = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadScienceArtifact = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadEngineeringAtmosFront = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadEngineeringAtmosMain = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadServiceBar = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadServiceBotany = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadServiceBoxer = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadCommandBridge = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadCommandBridgeHallway = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadSecurityBrig = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadSecurityBrigMed = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadCommandCe = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadCommandCmo =  { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadCommandCaptain = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadCargoBay = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadCargoBreakroom = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadCargoFront = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadServiceChapel = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadMedicalChemistry = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadServiceClown = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadServiceClownMime = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadCommandLounge = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadCommandMeetingRoom = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadSecurityCourtroom = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadMedicalCryopods = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadGeneralCryosleep = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadSecurityDetective = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadGeneralDisposals = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadGeneralEVAStorage = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadEngineeringBreakroom = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadEngineeringFront = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadEngineeringStorage = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadGeneralEvac = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadServiceGameRoom = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadCommandHop = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadCommandHos = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadSecurityInterrogation = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadServiceJanitor = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadServiceKitchen = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadSecurityLawyer = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadServiceLibrary = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadGeneralLounge = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadMedicalBreakroom = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadMedicalFront = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadMedicalMedbay = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadServiceMime = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadMedicalMorgue = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadServiceMusician = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadServiceNewsroom = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadMedicalParamed = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadSecurityPerma = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadEngineeringPower = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadCommandQm = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadScienceRnd = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadCommandRd = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadScienceRobotics = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadCargoSalvageBay = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadScienceBreakroom = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadScienceFront = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadSecurityFront = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadSecurityBreakroom = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadSecurityLockerRoom = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadMedicalSurgery = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadEngineeringAtmosTeg = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadEngineeringTechVault = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadEngineeringTelecoms = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadGeneralTheater = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadGeneralTools = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadCommandVault = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadSecurityWarden = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadMedicalVirology = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadServiceZookeeper = { ent-HolopadBase }
-    .desc = { ent-HolopadBase.desc }
-
-ent-HolopadLongRange = { ent-HolopadLongRangeBase }
-    .desc = { ent-HolopadLongRangeBase.desc }
-
-ent-HolopadCargoAts = { ent-HolopadLongRangeBase }
-    .desc = { ent-HolopadLongRangeBase.desc }
-
-ent-HolopadCargoShuttle = { ent-HolopadLongRangeBase }
-    .desc = { ent-HolopadLongRangeBase.desc }
-
-ent-HolopadCentCommEvacShuttle = { ent-HolopadLongRangeBase }
-    .desc = { ent-HolopadLongRangeBase.desc }
-
-ent-HolopadCommandBridgeLongRange= { ent-HolopadLongRangeBase }
-    .desc = { ent-HolopadLongRangeBase.desc }
-
-ent-HolopadCargoBayLongRange = { ent-HolopadLongRangeBase }
-    .desc = { ent-HolopadLongRangeBase.desc }
-
-ent-Holopad = { ent-HolopadLongRangeBase }
-    .desc = { ent-HolopadLongRangeBase.desc }
-
-ent-Holopad = { ent-HolopadLongRangeBase }
-    .desc = { ent-HolopadLongRangeBase.desc }
-
-ent-Holopad = { ent-HolopadLongRangeBase }
-    .desc = { ent-HolopadLongRangeBase.desc }
-
-ent-Holopad = { ent-HolopadLongRangeBase }
-    .desc = { ent-HolopadLongRangeBase.desc }
-
-ent-Holopad = { ent-HolopadLongRangeBase }
-    .desc = { ent-HolopadLongRangeBase.desc }
-
-ent-Holopad = { ent-HolopadLongRangeBase }
-    .desc = { ent-HolopadLongRangeBase.desc }
-
-ent-Holopad = { ent-HolopadLongRangeBase }
-    .desc = { ent-HolopadLongRangeBase.desc }
+# Holograms
+holopad-hologram-name = hologram of {THE($name)}
+
+# Holopad actions
+holopad-activate-projector-verb = Activate holopad projector
+holopad-ai-is-unable-to-reach-holopad = You are unable to interface with the source of the call, it is too far from your core.
+holopad-ai-is-unable-to-activate-projector = You are unable to activate the holopad's projector, it is too far from your core.
+
+# Mapping prototypes
+# General
+holopad-general-tools = General - Tools
+holopad-general-cryosleep = General - Cryosleep
+holopad-general-theater = General - Theater
+holopad-general-disposals = General - Disposals
+holopad-general-eva = General - EVA Storage
+holopad-general-lounge = General - Lounge
+holopad-general-arcade = General - Arcade
+holopad-general-evac = General - Evac
+holopad-general-arrivals = General - Arrivals
+
+# Command
+holopad-command-bridge = Command - Bridge
+holopad-command-vault = Command - Vault
+holopad-command-bridge-hallway = Command - Bridge Hallway
+holopad-command-meeting-room = Command - Meeting Room
+holopad-command-lounge = Command - Lounge
+holopad-command-captain = Command - Captain
+holopad-command-hop = Command - HoP
+holopad-command-cmo = Command - CMO
+holopad-command-qm = Command - QM
+holopad-command-ce = Command - CE
+holopad-command-rd = Command - RD
+holopad-command-hos = Command - HoS
+
+# Science
+holopad-science-anomaly = Science - Anomaly
+holopad-science-artifact = Science - Artifact
+holopad-science-robotics = Science - Robotics
+holopad-science-rnd = Science - R&D
+holopad-science-front = Science - Front
+holopad-science-breakroom = Science - Breakroom
+
+# Medical
+holopad-medical-medbay = Medical - Medbay
+holopad-medical-chemistry = Medical - Chemistry
+holopad-medical-cryopods = Medical - Cryopods
+holopad-medical-morgue = Medical - Morgue
+holopad-medical-surgery = Medical - Surgery
+holopad-medical-paramedic = Medical - Paramedic
+holopad-medical-virology = Medical - Virology
+holopad-medical-front = Medical - Front
+holopad-medical-breakroom = Medical - Breakroom
+
+# Cargo
+holopad-cargo-front = Cargo - Front
+holopad-cargo-bay = Cargo - Cargo Bay
+holopad-cargo-salvage-bay = Cargo - Salvage Bay
+holopad-cargo-breakroom  = Cargo - Breakroom
+holopad-cargo-ats = Cargo - ATS
+holopad-cargo-shuttle = Cargo - Shuttle
+
+# Engineering
+holopad-engineering-atmos-front = Atmos - Front
+holopad-engineering-atmos-main = Atmos - Main
+holopad-engineering-atmos-teg = Atmos - TEG
+holopad-engineering-storage = Engineering - Storage
+holopad-engineering-breakroom = Engineering - Breakroom
+holopad-engineering-front = Engineering - Front
+holopad-engineering-telecoms = Engineering - Telecoms
+holopad-engineering-tech-vault = Engineering - Tech Vault
+holopad-engineering-ame = Engineering - AME
+holopad-engineering-power = Engineering - Power
+
+# Security
+holopad-security-front = Security - Front
+holopad-security-brig = Security - Brig
+holopad-security-warden = Security - Warden
+holopad-security-interrogation = Security - Interrogation
+holopad-security-breakroom = Security - Breakroom
+holopad-security-detective = Security - Detective
+holopad-security-perma = Security - Perma
+holopad-security-courtroom = Security - Courtroom
+holopad-security-lawyer = Security - Lawyer
+holopad-security-armory = Security - Armory
+holopad-security-locker-room = Security - Locker Room
+holopad-security-brig-med = Security - Brig Med
+
+# Service
+holopad-service-janitor = Service - Janitor
+holopad-service-bar = Service - Bar
+holopad-service-kitchen = Service - Kitchen
+holopad-service-botany = Service - Botany
+holopad-service-chapel = Service - Chapel
+holopad-service-library = Service - Library
+holopad-service-newsroom = Service - Newsroom
+holopad-service-zookeeper = Service - Zookeeper
+holopad-service-boxer = Service - Boxer
+holopad-service-clown = Service - Clown
+holopad-service-musician = Service - Musician
+holopad-service-mime = Service - Mime
+holopad-service-clown-mime = Service - Clown/Mime
+holopad-service-gameroom = Service - Game Room
+
+# AI
+holopad-ai-core = AI - Core
+holopad-ai-main = AI - Main
+holopad-ai-upload = AI - Upload
+holopad-ai-backup-power = AI - Backup Power
+holopad-ai-entrance = AI - Entrance
+holopad-ai-chute = AI - Chute
+
+# Long Range
+holopad-station-bridge = Station - Bridge
+holopad-station-cargo-bay = Station - Cargo Bay
+
+# CentComm
+holopad-centcomm-evac = CentComm - Evacuation Shuttle
