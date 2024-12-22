@@ -1,4 +1,4 @@
-### Special messages used by internal localizer stuff.
+### Специальные сообщения, используемые внутренними локализаторами.
 
 # Используется в функции PRESSURE().
 zzzz-fmt-pressure = { TOSTRING($divided, "F1") } { $places ->
@@ -20,17 +20,17 @@ zzzz-fmt-power-watts = { TOSTRING($divided, "F1") } { $places ->
     *[5] ???
 }
 
-# Used internally by the POWERJOULES() function.
-# Reminder: 1 joule = 1 watt for 1 second (multiply watts by seconds to get joules).
-# Therefore 1 kilowatt-hour is equal to 3,600,000 joules (3.6MJ)
+# Используется в функции POWERJOULES().
+# Напоминание: 1 джоуль = 1 ватт в 1 секунду (умножь ватты на секунды дабы получить джоули).
+# Следовательно, 1 киловатт-час равен 3,600,000 джоулей (3.6 МДж).
 zzzz-fmt-power-joules = { TOSTRING($divided, "F1") } { $places ->
-    [0] J
-    [1] kJ
-    [2] MJ
-    [3] GJ
-    [4] TJ
+    [0] Дж
+    [1] кДж
+    [2] МДж
+    [3] ГДж
+    [4] ТДж
     *[5] ???
 }
 
-# Used internally by the PLAYTIME() function.
-zzzz-fmt-playtime = {$hours}H {$minutes}M
+# Используется в функции PLAYTIME().
+zzzz-fmt-playtime = {$hours}Ч {$minutes}M
