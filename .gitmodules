@@ -2,11 +2,3 @@
         path = RobustToolbox
         url = https://github.com/space-wizards/RobustToolbox.git
         branch = master
-[submodule "Mr0maks-SS14"]
-        path = Mr0maks-SS14
-        url = https://github.com/Workbench-Team/space-station-14
-	branch = master-ru
-[submodule "Corvax-SS14"]
-        path = Corvax-SS14
-        url = https://github.com/space-syndicate/space-station-14
-	branch = master
