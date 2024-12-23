@@ -1,2 +1,2 @@
-# Button text in lobby/escape menu
-ui-vote-menu-button = Call vote
+# Текст кнопки в лобби / меню выхода
+ui-vote-menu-button = Голосование
