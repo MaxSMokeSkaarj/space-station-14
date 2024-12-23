@@ -13,5 +13,5 @@ wieldable-component-no-hands = Вам нечем это схватить!
 }
 wieldable-component-not-in-hands = { CAPITALIZE($item) } не у вашс в руках!
 wieldable-component-requires = { CAPITALIZE($item) } должно быть в двух руках!
-gunwieldbonus-component-examine = Если я возьму юто в две руки, я смогу стрелять метче.
+gunwieldbonus-component-examine = Если я возьму это в две руки, я смогу стрелять точнее.
 gunrequireswield-component-examine = Из этого оружия можно стрелять только держа его двумя руками.
