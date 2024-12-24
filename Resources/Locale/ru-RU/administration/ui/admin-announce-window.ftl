@@ -1,8 +1,8 @@
-admin-announce-title = Make Announcement
-admin-announce-announcement-placeholder = Announcement text...
-admin-announce-announcer-placeholder = Announcer
-admin-announce-announcer-default = Central Command
-admin-announce-button = Announce
-admin-announce-type-station = Station
-admin-announce-type-server = Server
-admin-announce-keep-open = Keep open
+admin-announce-title = Сделать объявление
+admin-announce-announcement-placeholder = Текст объявления...
+admin-announce-announcer-placeholder = Объявляющий
+admin-announce-announcer-default = Центральное командование
+admin-announce-button = Объявить
+admin-announce-type-station = Станция
+admin-announce-type-server = Сервер
+admin-announce-keep-open = Оставить открытым
