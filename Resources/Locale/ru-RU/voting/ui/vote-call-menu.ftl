@@ -1,18 +1,18 @@
-ui-vote-type-restart = Restart round
-ui-vote-type-gamemode = Next gamemode
-ui-vote-type-map = Next map
-ui-vote-type-votekick = Votekick
+ui-vote-type-restart = Перезапуск раунда
+ui-vote-type-gamemode = Следующий режим игры
+ui-vote-type-map = Следующая карта
+ui-vote-type-votekick = Голосование за кик
 
-# Votekick reasons
-ui-vote-votekick-type-raiding = Raiding
-ui-vote-votekick-type-cheating = Cheating
-ui-vote-votekick-type-spamming = Spamming
+# Причина голосования на кик
+ui-vote-votekick-type-raiding = Набег
+ui-vote-votekick-type-cheating = Использование читов
+ui-vote-votekick-type-spamming = Спам
 
-# Window title of the vote create menu
-ui-vote-create-title = Call Vote
+# Заголовок окна меню создания голосования
+ui-vote-create-title = Голосование
 
-# Submit button in the vote create button
-ui-vote-create-button = Call Vote
+# Кнопка "Отправить" в разделе "Создать голосование"
+ui-vote-create-button = Запустить
 
 # Follow button in the vote create menu
 ui-vote-follow-button = Follow User

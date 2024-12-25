@@ -1,4 +1,4 @@
-apc-component-insufficient-access = Insufficient access!
-apc-component-on-examine-panel-open = The [color=lightgray]APC electronics panel[/color] is [color=red]open[/color].
-apc-component-on-examine-panel-closed = The [color=lightgray]APC electronics panel[/color] is [color=darkgreen]closed[/color].
-apc-component-on-toggle-cancel = It does nothing!
+apc-component-insufficient-access = Недостаточно прав доступа!
+apc-component-on-examine-panel-open = Электронная панель [color=lightgray]АПК[/color] [color=red]открыта[/color].
+apc-component-on-examine-panel-closed = Электронная панель [color=lightgray]АПК[/color] [color=darkgreen]закрыта[/color].
+apc-component-on-toggle-cancel = Ничего не происходит!
