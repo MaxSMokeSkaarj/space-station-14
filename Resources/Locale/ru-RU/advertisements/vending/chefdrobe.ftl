@@ -1,4 +1,4 @@
-﻿advertisement-chefdrobe-1 = Our clothes are guaranteed to protect you from food splatters!
-advertisement-chefdrobe-2 = Perfectly white, so everyone knows about the murder in the kitchen!
-advertisement-chefdrobe-3 = Easy to clean, easy to see!
-advertisement-chefdrobe-4 = Cook like a pro, look like a maestro!
+﻿advertisement-chefdrobe-1 = Наша одежда гарантированно защитит вас от брызг пищи!
+advertisement-chefdrobe-2 = Идеально белая, чтобы все знали о "убийстве" на кухне!
+advertisement-chefdrobe-3 = Легко чистится, легко заметить!
+advertisement-chefdrobe-4 = Готовьте как профессионал, выглядите как маэстро!
