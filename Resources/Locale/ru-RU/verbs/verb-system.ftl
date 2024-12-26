@@ -1,36 +1,36 @@
-verb-system-null-server-response = Entity not in view. You should not see this.
+verb-system-null-server-response = Объект не в поле зрения. Вам нужно видеть его.
 
 
-# if verbs have a range of targets (e.g., multiple ejectables) you can
-# usually just use Entity.Name. But it is a bit odd when targeting yourself
-verb-self-target-pronoun = Yourself
+# если глаголы имеют ряд целей (например, несколько объектов извлечения), вы можете
+# обычно просто используйте Entity.Name. Но это немного странно, когда нацеливаешься на себя
+verb-self-target-pronoun = Вы сами
 
 
 # verb categories & common verbs. These appear across multiple systems, so they may as well go here.
 
-verb-categories-admin = Admin
-verb-categories-debug = Debug
-verb-categories-examine = Examine
-verb-categories-eject = Eject
-verb-categories-insert = Insert
-verb-categories-buckle = Buckle
-verb-categories-unbuckle = Unbuckle
-verb-categories-rotate = Rotate
-verb-categories-smite = Smite
-verb-categories-tricks = Tricks
-verb-categories-transfer = Set Transfer Amount
-verb-categories-split = Split
-verb-categories-instrument-style = Instrument Style
-verb-categories-channel-select = Channels
-verb-categories-set-sensor = Sensor
-verb-categories-timer = Set Delay
-verb-categories-lever = Lever
-verb-categories-select-type = Select Type
-verb-categories-fax = Set Destination
-verb-categories-power-level = Power Level
+verb-categories-admin = Админ
+verb-categories-debug = Дебаг
+verb-categories-examine = Осмотреть
+verb-categories-eject = Извлечь
+verb-categories-insert = Вставить
+verb-categories-buckle = Пристегнуть
+verb-categories-unbuckle = Отстегнуть
+verb-categories-rotate = Повернуть
+verb-categories-smite = Покарать
+verb-categories-tricks = Трюки
+verb-categories-transfer = Установите сумму серевода
+verb-categories-split = Разделить
+verb-categories-instrument-style = Стиль инструмента
+verb-categories-channel-select = Каналы
+verb-categories-set-sensor = Датчик
+verb-categories-timer = Установить задержку
+verb-categories-lever = Рычаг
+verb-categories-select-type = Выберите тип
+verb-categories-fax = Установить пункт назначения
+verb-categories-power-level = Уровень мощности
 
-verb-common-toggle-light = Toggle light
-verb-common-close = Close
-verb-common-open = Open
-verb-common-close-ui = Close UI
-verb-common-open-ui = Open UI
+verb-common-toggle-light = Переключить свет
+verb-common-close = Закрыть
+verb-common-open = Открыть
+verb-common-close-ui = Закрыть UI
+verb-common-open-ui = Открыть UI
