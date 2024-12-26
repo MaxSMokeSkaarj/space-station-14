@@ -1,31 +1,30 @@
-
 ### UI
 
-# Verb name for climbing
-comp-climbable-verb-climb = Vault
+# Глагол для лазания
+comp-climbable-verb-climb = Прыжок
 
-### Interaction Messages
+### Сообщения взаимодействия
 
-# Shown to you when your character climbs on $climbable
-comp-climbable-user-climbs = You jump onto { THE($climbable) }!
+# Показано вам, когда ваш персонаж забирается на $climbable
+comp-climbable-user-climbs = Вы запрыгиваете на { THE($climbable) }!
 
-# Shown to others when $user climbs on $climbable
-comp-climbable-user-climbs-other  = { CAPITALIZE(THE($user)) } jumps onto { THE($climbable) }!
+# Показано другим, когда $user забирается на $climbable
+comp-climbable-user-climbs-other = { CAPITALIZE(THE($user)) } запрыгивает на { THE($climbable) }!
 
-# Shown to you when your character forces someone to climb on $climbable
-comp-climbable-user-climbs-force = You force { THE($moved-user) } onto { THE($climbable) }!
+# Показано вам, когда ваш персонаж заставляет кого-то забраться на $climbable
+comp-climbable-user-climbs-force = Вы заставляете { THE($moved-user) } забраться на { THE($climbable) }!
 
-# Shown to others when someone forces other $moved-user to climb on $climbable
-comp-climbable-user-climbs-force-other = { CAPITALIZE(THE($user)) } forces { THE($moved-user) } onto { THE($climbable) }!
+# Показано другим, когда кто-то заставляет другого $moved-user забраться на $climbable
+comp-climbable-user-climbs-force-other = { CAPITALIZE(THE($user)) } заставляет { THE($moved-user) } забраться на { THE($climbable) }!
 
-# Shown to you when your character is far away from climbable
-comp-climbable-cant-reach = You can't reach there!
+# Показано вам, когда ваш персонаж далеко от лазательного объекта
+comp-climbable-cant-reach = Вы не можете туда добраться!
 
-# Shown to you when your character can't interact with climbable for some reason
-comp-climbable-cant-interact = You can't do that!
+# Показано вам, когда ваш персонаж не может взаимодействовать с лазательным объектом по какой-то причине
+comp-climbable-cant-interact = Вы не можете это сделать!
 
-# Shown to you when your character isn't able to climb by their own actions
-comp-climbable-cant-climb = You are incapable of climbing!
+# Показано вам, когда ваш персонаж не может забраться самостоятельно
+comp-climbable-cant-climb = Вы не способны забраться!
 
-# Shown to you when your character tries to force someone else who can't climb onto a climbable
-comp-climbable-target-cant-climb = { CAPITALIZE(THE($moved-user)) } can't go there!
+# Показано вам, когда ваш персонаж пытается заставить кого-то другого, кто не может забраться, забраться на лазательный объект
+comp-climbable-target-cant-climb = { CAPITALIZE(THE($moved-user)) } не может туда пойти!
