@@ -7,5 +7,5 @@ traitor-death-match-redemption-component-interact-using-pda-different-user-messa
 traitor-death-match-redemption-component-interact-using-no-pda-in-pocket-message = "НЕ ПРЕНАДЛЕЖАЩИЙ ВАМ КПК В КАРМАНЕ ДЛЯ ID КАРТ (0083)"
 traitor-death-match-redemption-component-interact-using-tampering-detected = "ОБНАРУЖЕНО НЕСАНКЦИОНИРОВАНОЕ ВМЕШАТЕЛЬСТВО (0101)"
 traitor-death-match-redemption-component-interact-using-user-no-uplink-account-message = "ПОЛЬЗОВАТЕЛЬСКИЙ КПК НЕ ИМЕЕТ АПЛИНК АККАУНТА (0102)"
-traitor-death-match-redemption-component-interact-using-victim-no-uplink-account-message = "ПОЛЬЗОВАТЕЛЬСКИЙ КПК НЕ ИМЕЕТ АПЛИНК АККАУНТА (0108)"
+traitor-death-match-redemption-component-interact-using-victim-no-uplink-account-message = "ЦЕЛЕВОЙ ПОЛЬЗОВАТЕЛЬСКИЙ КПК НЕ ИМЕЕТ АПЛИНК АККАУНТА (0108)"
 traitor-death-match-redemption-component-interact-using-success-message = Машина воспроизводит веселую мелодию и отображает: "УСПЕХ: {$tcAmount} ТК БЫЛО ПЕРЕВЕДЕНО"
