@@ -1,2 +1,2 @@
-# Examine Text
-gas-volume-pump-system-examined = The pump is set to [color={$statusColor}]{$rate} liters/sec[/color].
+# Текст для осмотра
+gas-volume-pump-system-examined = Насос установлен на [color={$statusColor}]{$rate} литров/сек[/color].

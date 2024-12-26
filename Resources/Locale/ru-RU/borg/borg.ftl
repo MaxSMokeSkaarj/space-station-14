@@ -1,64 +1,62 @@
-borg-player-not-allowed = The brain doesn't fit!
-borg-player-not-allowed-eject = The brain was expelled from the chassis!
+borg-player-not-allowed = Мозг не влезает!
+borg-player-not-allowed-eject = Мозг был вытолкнут из корпуса!
 
-borg-panel-not-open = The cyborg's panel isn't open...
+borg-panel-not-open = Панель киборга не открыта...
 
-borg-mind-added = {CAPITALIZE($name)} powered on!
-borg-mind-removed = {CAPITALIZE($name)} shut off!
+borg-mind-added = {CAPITALIZE($name)} включен!
+borg-mind-removed = {CAPITALIZE($name)} выключен!
 
-borg-module-too-many = There's not enough room for another module...
-borg-module-duplicate = This module is already installed in this cyborg.
-borg-module-whitelist-deny = This module doesn't fit in this type of cyborg...
+borg-module-too-many = Нет места для еще одного модуля...
+borg-module-duplicate = Этот модуль уже установлен в этом киборге.
+borg-module-whitelist-deny = Этот модуль не подходит для данного типа киборга...
 
-borg-construction-guide-string = The cyborg limbs and torso must be attached to the endoskeleton.
+borg-construction-guide-string = Конечности и торс киборга должны быть прикреплены к эндоскелету.
 
-borg-ui-menu-title = Cyborg Interface
-borg-ui-charge-label = Charge: {$charge}%
-borg-ui-no-brain = No brain present
-borg-ui-remove-battery = Remove
-borg-ui-modules-label = Modules:
+borg-ui-menu-title = Интерфейс киборга
+borg-ui-charge-label = Заряд: {$charge}%
+borg-ui-no-brain = Мозг отсутствует
+borg-ui-remove-battery = Удалить
+borg-ui-modules-label = Модули:
 borg-ui-module-counter = {$actual}/{$max}
 
-# Transponder
-borg-transponder-disabled-popup = A brain shoots out the top of {$name}!
-borg-transponder-disabling-popup = Your transponder begins to lock you out of the chassis!
-borg-transponder-destroying-popup = The self destruct of {$name} starts beeping!
-borg-transponder-emagged-disabled-popup = Your transponder's lights go out!
-borg-transponder-emagged-destroyed-popup = Your transponder's fuse blows!
+# Транспондер
+borg-transponder-disabled-popup = Из верхней части {$name} вылетает мозг!
+borg-transponder-disabling-popup = Ваш транспондер начинает блокировать ваше шасси!
+borg-transponder-destroying-popup = Самоуничтожающийся {$name} начинает издавать звуки!
+borg-transponder-emagged-disabled-popup = Огни вашего транспондера гаснут!
+borg-transponder-emagged-destroyed-popup = Предохранитель вашего транспондера сгорел!
 
-## Borg type selection UI.
-borg-select-type-menu-title = Select Chassis Type
-borg-select-type-menu-bottom-text = Chassis selection is irreversible
-borg-select-type-menu-available = Available types
-borg-select-type-menu-information = Information
-borg-select-type-menu-select-type = Select type to view information
-borg-select-type-menu-confirm = Confirm selection
-borg-select-type-menu-guidebook = Guidebook
+## Интерфейс выбора типа киборга.
+borg-select-type-menu-title = Выберите тип корпуса
+borg-select-type-menu-bottom-text = Выбор корпуса необратим
+borg-select-type-menu-available = Доступные типы
+borg-select-type-menu-information = Информация
+borg-select-type-menu-select-type = Выберите тип для просмотра информации
+borg-select-type-menu-confirm = Подтвердить выбор
+borg-select-type-menu-guidebook = Справочник
 
-## Borg type information
+## Информация о типах киборгов
 
-borg-type-generic-name = Generic
-borg-type-generic-desc = Jack of all trades, master of none. Do various random station tasks, or maybe help out the science department that built you.
-borg-type-generic-transponder = generic cyborg
+borg-type-generic-name = Универсальный
+borg-type-generic-desc = Мастер на все руки, не обладающий выдающимися навыками. Выполняет различные случайные задачи на станции или помогает научному отделу, который вас создал.
+borg-type-generic-transponder = универсальный киборг
 
-borg-type-engineering-name = Engineering
-borg-type-engineering-desc = Assist the engineering team in station construction, repairing damage, or fixing electrical and atmospheric issues.
-borg-type-engineering-transponder = engineering cyborg
+borg-type-engineering-name = Инженерный
+borg-type-engineering-desc = Помогайте инженерной команде в строительстве станции, ремонте повреждений или устранении электрических и атмосферных проблем.
+borg-type-engineering-transponder = инженерный киборг
 
-borg-type-mining-name = Salvage
-borg-type-mining-desc = Join salvage and help them mine for materials, scavenge wrecks, and fight off hostile wildlife.
-borg-type-mining-transponder = salvage cyborg
+borg-type-mining-name = Утилизация
+borg-type-mining-desc = Присоединяйтесь к утилизации и помогайте добывать материалы, искать обломки и сражаться с враждебной дикой природой.
+borg-type-mining-transponder = утилизирующий киборг
 
-borg-type-janitor-name = Janitor
-borg-type-janitor-desc = Keep the station nice and tidy, clean up spills, collect and properly dispose of trash left around by lazy crewmembers.
-borg-type-janitor-transponder = janitor cyborg
+borg-type-janitor-name = Уборщик
+borg-type-janitor-desc = Поддерживайте порядок на станции, убирайте разливы, собирайте и правильно утилизируйте мусор, оставленный ленивыми членами экипажа.
+borg-type-janitor-transponder = уборочный киборг
 
-borg-type-medical-name = Medical
-borg-type-medical-desc = Provide medical attention to crew who need it, either in medbay or in hazardous areas conventional paramedics cannot reach.
-borg-type-medical-transponder = medical cyborg
+borg-type-medical-name = Медицинский
+borg-type-medical-desc = Обеспечивайте медицинскую помощь членам экипажа, которым она нужна, как в медпункте, так и в опасных зонах, недоступных для обычных парамедиков.
+borg-type-medical-transponder = медицинский киборг
 
-borg-type-service-name = Service
-borg-type-service-desc = Help out with a wide range of crew services, ranging from serving snacks and drinks to botany to entertainment.
-borg-type-service-transponder = service cyborg
-
-
+borg-type-service-name = Сервисный
+borg-type-service-desc = Помогайте с широким спектром услуг для экипажа, от подачи закусок и напитков до ботаники и развлечений.
+borg-type-service-transponder = сервисный киборг

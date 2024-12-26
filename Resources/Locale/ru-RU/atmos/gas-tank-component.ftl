@@ -1,26 +1,26 @@
-﻿### GasTankComponent stuff.
+﻿### Компоненты газового бака.
 
-# Examine text showing pressure in tank.
-comp-gas-tank-examine = Pressure: [color=orange]{PRESSURE($pressure)}[/color].
+# Текст для отображения давления в баке.
+comp-gas-tank-examine = Давление: [color=orange]{PRESSURE($pressure)}[/color].
 
-# Examine text when internals are active.
-comp-gas-tank-connected = It's connected to an external component.
+# Текст, когда внутренности активны.
+comp-gas-tank-connected = Он подключен к внешнему компоненту.
 
-# Examine text when valve is open or closed.
-comp-gas-tank-examine-open-valve = Gas release valve is [color=red]open[/color].
-comp-gas-tank-examine-closed-valve = Gas release valve is [color=green]closed[/color].
+# Текст, когда клапан открыт или закрыт.
+comp-gas-tank-examine-open-valve = Клапан выпуска газа [color=red]открыт[/color].
+comp-gas-tank-examine-closed-valve = Клапан выпуска газа [color=green]закрыт[/color].
 
-## ControlVerb
-control-verb-open-control-panel-text = Open Control Panel
+## Управление
+control-verb-open-control-panel-text = Открыть панель управления
 
-## UI
-gas-tank-window-internals-toggle-button = Toggle
-gas-tank-window-output-pressure-label = Output Pressure
-gas-tank-window-tank-pressure-text = Pressure: {$tankPressure} kPA
-gas-tank-window-internal-text = Internals: {$status}
-gas-tank-window-internal-connected = [color=green]Connected[/color]
-gas-tank-window-internal-disconnected = [color=red]Disconnected[/color]
+## Интерфейс
+gas-tank-window-internals-toggle-button = Переключить
+gas-tank-window-output-pressure-label = Выходное давление
+gas-tank-window-tank-pressure-text = Давление: {$tankPressure} кПа
+gas-tank-window-internal-text = Внутренности: {$status}
+gas-tank-window-internal-connected = [color=green]Подключено[/color]
+gas-tank-window-internal-disconnected = [color=red]Отключено[/color]
 
-## Valve
-comp-gas-tank-open-valve = Open Valve
-comp-gas-tank-close-valve = Close Valve
+## Клапан
+comp-gas-tank-open-valve = Открыть клапан
+comp-gas-tank-close-valve = Закрыть клапан

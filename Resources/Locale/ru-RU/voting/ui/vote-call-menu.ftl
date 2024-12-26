@@ -14,29 +14,29 @@ ui-vote-create-title = Голосование
 # Кнопка "Отправить" в разделе "Создать голосование"
 ui-vote-create-button = Запустить
 
-# Follow button in the vote create menu
-ui-vote-follow-button = Follow User
+# Кнопка следования в меню голосований
+ui-vote-follow-button = Следовать за пользователем
 
-# Timeout text if a standard vote type is currently on timeout.
-ui-vote-type-timeout = This vote was called too recently ({$remaining})
+# Текст на таймаут вызова голосований
+ui-vote-type-timeout = Это голосование было недавно запущено ({ $remaining })
 
-# Unavailable text if a vote type has been disabled manually.
-ui-vote-type-not-available = This vote type has been disabled
+# Недоступный текст, если тип голосования был отключен вручную.
+ui-vote-type-not-available = Этот тип голосования был отключён
 
-# Vote option only available for specific users.
+# Опция голосования доступна только для определенных пользователей.
 ui-vote-trusted-users-notice =
-  This vote option is only available to players who have enough playtime or are whitelisted.
-  In addition, you must have been a ghost for { $timeReq } seconds.
+  Этот вариант голосования доступен только для игроков, внесённых в вайтлист или имеющим достаточно игрового времени.
+  Кроме этого, вы должны были быть призраком в течение { $timeReq } секунд.
 
-# Warning to not abuse a specific vote option.
+# Предупреждение о том, чтобы не злоупотреблять конкретным вариантом голосования..
 ui-vote-abuse-warning =
-  Warning!
-  Abuse of the votekick system may result in an indefinite ban!
+  Внимание!
+  Злоупотребление голосованием за кик может привести к бессрочному бану
 
 # Hue hue hue
-ui-vote-fluff = Powered by Robust™ Anti-Tamper Technology
+ui-vote-fluff = Powered by Robust™ Технологии защиты от несанкционированного доступа
 
-## Vote menu command
+## Команда меню "Голосовать"
 
-ui-vote-menu-command-description = Opens the voting menu
-ui-vote-menu-command-help-text = Usage: votemenu
+ui-vote-menu-command-description = Открывает меню голосования
+ui-vote-menu-command-help-text = Применение: votemenu

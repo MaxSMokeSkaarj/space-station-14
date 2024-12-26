@@ -1,2 +1,2 @@
-# Examine Text
-gas-thermomachine-system-examined = The {$machineName} thermostat is set to [color={$tempColor}]{$temp} K[/color].
+# Текст для осмотра
+gas-thermomachine-system-examined = Термоаппарат {$machineName} установлен на [color={$tempColor}]{$temp} K[/color].
