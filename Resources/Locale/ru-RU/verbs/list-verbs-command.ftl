@@ -1,15 +1,15 @@
-﻿### Localization used for the list verbs command.
-# Mostly help + error messages.
+﻿### Локализация, используемая для команды list verbs .
+# В основном справка + сообщения об ошибках.
 
-list-verbs-command-description = Lists all verbs that a player can use on a given entity.
-list-verbs-command-help = listverbs <playerUid | "self"> <targetUid>
+list-verbs-command-description = Перечисляет все команды, которые игрок может использовать для данного объекта.
+list-verbs-command-help = команд-лист <playerUid | "self"> <targetUid>
 
-list-verbs-command-invalid-args = listverbs takes 2 arguments.
+list-verbs-command-invalid-args = командный лист принимает 2 аргумента.
 
-list-verbs-command-invalid-player-uid = Player uid could not be parsed, or "self" was not passed.
-list-verbs-command-invalid-target-uid = Target uid could not be parsed.
+list-verbs-command-invalid-player-uid = UID игрока не удалось найти, или "self" не был прочтён.
+list-verbs-command-invalid-target-uid = Не удалось проанализировать целевой UID.
 
-list-verbs-command-invalid-player-entity = Player uid given does not correspond to a valid entity.
-list-verbs-command-invalid-target-entity = Target uid given does not correspond to a valid entity.
+list-verbs-command-invalid-player-entity = Указанный UID игрока не соответствует действительному объекту.
+list-verbs-command-invalid-target-entity = Указанный целевой UID не соответствует допустимому объекту.
 
 list-verbs-verb-listing = { $type }: { $verb }
