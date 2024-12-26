@@ -1,61 +1,61 @@
-trait-blindness-name = Blindness
-trait-blindness-desc = You are legally blind, and can't see clearly past a few meters in front of you.
+trait-blindness-name = Слепота
+trait-blindness-desc = По неведомым причинам, вы слепы, и не можете ясно видеть дальше нескольких метров перед собой.
 
-trait-poor-vision-name = Short-sighted
-trait-poor-vision-desc = Your eyes are not what they once were, you have difficulty seeing things far away without corrective glasses.
+trait-poor-vision-name = Близорукость
+trait-poor-vision-desc = Ваши глаза уже не те, что были когда-то, вам трудно видеть предметы на расстоянии без корректирующих очков.
 
-trait-narcolepsy-name = Narcolepsy
-trait-narcolepsy-desc = You fall asleep randomly.
+trait-narcolepsy-name = Нарколепсия
+trait-narcolepsy-desc = Вы невольно засыпаете в случайное время.
 
-trait-pacifist-name = Pacifist
-trait-pacifist-desc = You cannot attack or hurt any living beings.
+trait-pacifist-name = Пацифизм
+trait-pacifist-desc = Вы не можете нападать на какие-либо живые существа или причинять им вред.
 
-permanent-blindness-trait-examined = [color=lightblue]{CAPITALIZE(POSS-ADJ($target))} eyes are glassy and unfocused. It doesn't seem like {SUBJECT($target)} can see you well, if at all.[/color]
+permanent-blindness-trait-examined = [color=lightblue]{CAPITALIZE(POSS-ADJ($target))} глаза стеклянные и расфокусированные. Не похоже на то, что {SUBJECT($target)} может хорошо тебя видеть, если вообще видит.[/color]
 
-trait-lightweight-name = Lightweight drunk
-trait-lightweight-desc = Alcohol has a stronger effect on you.
+trait-lightweight-name = Легкая опьяняемость
+trait-lightweight-desc = Алкоголь оказывает на вас более сильное воздействие, чем на других.
 
-trait-muted-name = Muted
-trait-muted-desc = You can't speak.
+trait-muted-name = Немота
+trait-muted-desc = Ты не можешь говорить.
 
-trait-paracusia-name = Paracusia
-trait-paracusia-desc = You hear sounds that aren't really there.
+trait-paracusia-name = Паракузия
+trait-paracusia-desc = Вы слышите звуки, которых на самом деле нет.
 
-trait-unrevivable-name = Unrevivable
-trait-unrevivable-desc = You are unable to be revived by defibrillators.
+trait-unrevivable-name = Невозрождаемость
+trait-unrevivable-desc = Дефибрилляторы не смогут вас воскресить.
 
-trait-pirate-accent-name = Pirate accent
-trait-pirate-accent-desc = You can't stop speaking like a pirate!
+trait-pirate-accent-name = Пиратский акцент
+trait-pirate-accent-desc = Ты не можешь перестать говорить как пират!
 
-trait-accentless-name = Accentless
-trait-accentless-desc = You don't have the accent that your species would usually have
+trait-accentless-name = Без акцента
+trait-accentless-desc = У тебя нет того акцента, который обычно бывает у представителей твоего вида
 
-trait-frontal-lisp-name = Frontal lisp
-trait-frontal-lisp-desc = You thpeak with a lithp.
+trait-frontal-lisp-name = Шепелявость
+trait-frontal-lisp-desc = У вас имеются проблемы с произношением ш, щ, ц, ч, с, ж, з, дж, дз.
 
-trait-socialanxiety-name = Stutter
-trait-socialanxiety-desc = You speak with a stutter.
+trait-socialanxiety-name = Заика
+trait-socialanxiety-desc = Вы говорите, заикаясь.
 
-trait-southern-name = Southern drawl
-trait-southern-desc = You have a different way of speakin'.
+trait-southern-name = Южный диалект США
+trait-southern-desc = У тебя какая-то другая манера говорить. (Работает только на английском)
 
-trait-snoring-name = Snoring
-trait-snoring-desc = You will snore while sleeping.
+trait-snoring-name = Храп
+trait-snoring-desc = Вы храпите во сне.
 
-trait-liar-name = Pathological liar
-trait-liar-desc = You can hardly bring yourself to tell the truth. Sometimes you lie anyway.
+trait-liar-name = Патологический лжец
+trait-liar-desc = Ты с трудом можешь заставить себя сказать правду. Но иногда ты все равно лжешь.
 
-trait-cowboy-name = Cowboy accent
-trait-cowboy-desc = You speak with a distinct cowboy accent!
+trait-cowboy-name = Ковбойский акцент
+trait-cowboy-desc = Ты говоришь с отчетливым ковбойским акцентом!
 
-trait-german-name = German accent
-trait-german-desc = You seem to come from space Germany.
+trait-german-name = Немецкий акцент
+trait-german-desc = Вы, кажется, прилетели из космической Германии.
 
-trait-italian-name = Italian accent
-trait-italian-desc = Mamma mia! You seem to have lived in space Italy!
+trait-italian-name = Итальянский акцент
+trait-italian-desc = Mamma mia! Вы, кажется, жили в космической Италии!
 
-trait-french-name = French accent
-trait-french-desc = Your accent seems to have a certain «je ne sais quoi».
+trait-french-name = Французский акцент
+trait-french-desc = В вашем акценте, кажется, есть определенный «je ne sais quoi».
 
-trait-spanish-name = Spanish accent
+trait-spanish-name = Испанский акцент
 trait-spanish-desc = Hola señor, donde esta la biblioteca.
