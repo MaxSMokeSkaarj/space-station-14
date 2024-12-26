@@ -19,10 +19,10 @@ trait-muted-name = Немота
 trait-muted-desc = Ты не можешь говорить.
 
 trait-paracusia-name = Паракузия
-trait-paracusia-desc = You hear sounds that aren't really there.
+trait-paracusia-desc = Вы слышите звуки, которых на самом деле нет.
 
 trait-unrevivable-name = Невозрождаемость
-trait-unrevivable-desc = Дефибрилляторы не приведут вас воскресить.
+trait-unrevivable-desc = Дефибрилляторы не смогут вас воскресить.
 
 trait-pirate-accent-name = Пиратский акцент
 trait-pirate-accent-desc = Ты не можешь перестать говорить как пират!
