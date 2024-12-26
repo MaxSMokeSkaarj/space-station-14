@@ -1,2 +1,2 @@
-# Default text that gets shown in the context menu for examining something with a GroupExamineComponent
-verb-examine-group-other = Other
+# Текст по умолчанию, который отображается в контекстном меню для проверки чего-либо с помощью GroupExamineComponent
+verb-examine-group-other = Другое
