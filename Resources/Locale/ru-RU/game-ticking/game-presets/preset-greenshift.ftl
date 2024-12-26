@@ -1,2 +1,2 @@
-greenshift-title = Greenshift
-greenshift-description = An event-less preset for admin events to play through without interference.
+greenshift-title = Зелёный сдвиг
+greenshift-description = Пресет без событий для администраторских мероприятий, чтобы играть без вмешательства.

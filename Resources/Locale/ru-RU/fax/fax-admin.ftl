@@ -1,16 +1,16 @@
-# Command
-cmd-faxui-desc = Open admin window for sending faxes
-cmd-faxui-help = Usage: faxui
+# Команда
+cmd-faxui-desc = Открыть админское окно для отправки факсов
+cmd-faxui-help = Использование: faxui
 
-# Window
-admin-fax-title = Admin Fax Manager
-admin-fax-fax = Fax:
-admin-fax-follow = Follow
-admin-fax-title-placeholder = Paper name...
-admin-fax-from-placeholder = Stamped by...
-admin-fax-message-placeholder = Your message here...
-admin-fax-stamp = Stamp icon:
-admin-fax-stamp-color = Stamp color:
-admin-fax-send = Send
-admin-fax-lock-page = Lock Page
-admin-fax-lock-page-tooltip = Lock the paper such that it cannot be edited even by things such as cybersun pens.
+# Окно
+admin-fax-title = Админский менеджер факсов
+admin-fax-fax = Факс:
+admin-fax-follow = Следить
+admin-fax-title-placeholder = Название бумаги...
+admin-fax-from-placeholder = Подписано...
+admin-fax-message-placeholder = Ваше сообщение здесь...
+admin-fax-stamp = Иконка штампа:
+admin-fax-stamp-color = Цвет штампа:
+admin-fax-send = Отправить
+admin-fax-lock-page = Заблокировать страницу
+admin-fax-lock-page-tooltip = Заблокировать бумагу так, чтобы ее нельзя было редактировать даже такими предметами, как ручки Киберсан.

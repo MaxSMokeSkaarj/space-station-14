@@ -1,48 +1,48 @@
-## Traitor
+## Предатель
 
-traitor-round-end-codewords = The codewords were: [color=White]{$codewords}[/color]
-traitor-round-end-agent-name = traitor
+traitor-round-end-codewords = Кодовые слова были: [color=White]{$codewords}[/color]
+traitor-round-end-agent-name = предатель
 
-objective-issuer-syndicate = [color=crimson]The Syndicate[/color]
-objective-issuer-unknown = Unknown
+objective-issuer-syndicate = [color=crimson]Синдикат[/color]
+objective-issuer-unknown = Неизвестно
 
-# Shown at the end of a round of Traitor
+# Показано в конце раунда Предателя
 
-traitor-title = Traitor
-traitor-description = There are traitors among us...
-traitor-not-enough-ready-players = Not enough players readied up for the game! There were {$readyPlayersCount} players readied up out of {$minimumPlayers} needed. Can't start Traitor.
-traitor-no-one-ready = No players readied up! Can't start Traitor.
+traitor-title = Предатель
+traitor-description = Среди нас есть предатели...
+traitor-not-enough-ready-players = Недостаточно игроков готово к игре! Были {$readyPlayersCount} игроков готово из {$minimumPlayers} необходимых. Нельзя начать игру Предатель.
+traitor-no-one-ready = Ни один игрок не готов! Нельзя начать игру Предатель.
 
-## TraitorDeathMatch
-traitor-death-match-title = Traitor Deathmatch
-traitor-death-match-description = Everyone's a traitor. Everyone wants each other dead.
-traitor-death-match-station-is-too-unsafe-announcement = The station is too unsafe to continue. You have one minute.
-traitor-death-match-end-round-description-first-line = The PDAs recovered afterwards...
-traitor-death-match-end-round-description-entry = {$originalName}'s PDA, with {$tcBalance} TC
+## Смертельная битва предателей
+traitor-death-match-title = Смертельная битва предателей
+traitor-death-match-description = Каждый — предатель. Каждый хочет убить друг друга.
+traitor-death-match-station-is-too-unsafe-announcement = Станция слишком небезопасна для продолжения. У вас одна минута.
+traitor-death-match-end-round-description-first-line = PDA, найденные после...
+traitor-death-match-end-round-description-entry = PDA {$originalName}, с {$tcBalance} TC
 
-## TraitorRole
+## Роль предателя
 
-# TraitorRole
+# Роль предателя
 traitor-role-greeting =
-    You are an agent sent by {$corporation} on behalf of [color = darkred]The Syndicate.[/color]
-    Your objectives and codewords are listed in the character menu.
-    Use your uplink to buy the tools you'll need for this mission.
-    Death to Nanotrasen!
+    Вы — агент, отправленный от {$corporation} от имени [color = darkred]Синдиката.[/color]
+    Ваши цели и кодовые слова указаны в меню персонажа.
+    Используйте свой uplink, чтобы купить инструменты, которые вам понадобятся для этой миссии.
+    Смерть Нанотрасен!
 traitor-role-codewords =
-    The codewords are: [color = lightgray]
+    Кодовые слова: [color = lightgray]
     {$codewords}.[/color]
-    Codewords can be used in regular conversation to identify yourself discretely to other syndicate agents.
-    Listen for them, and keep them secret.
+    Кодовые слова могут использоваться в обычной беседе, чтобы скрытно идентифицировать себя другим агентам синдиката.
+    Слушайте их и держите в секрете.
 traitor-role-uplink-code =
-    Set your ringtone to the notes [color = lightgray]{$code}[/color] to lock or unlock your uplink.
-    Remember to lock it after, or the stations crew will easily open it too!
+    Установите свой рингтон на ноты [color = lightgray]{$code}[/color], чтобы заблокировать или разблокировать свой uplink.
+    Не забудьте заблокировать его после, иначе экипаж станции сможет легко его открыть!
 traitor-role-uplink-implant =
-    Your uplink implant has been activated, access it from your hotbar.
-    The uplink is secure unless someone removes it from your body.
+    Ваш имплант uplink активирован, получите к нему доступ из вашей горячей панели.
+    Uplink защищен, если кто-то не удалит его из вашего тела.
 
-# don't need all the flavour text for character menu
+# не нужно все текстовые описания для меню персонажа
 traitor-role-codewords-short =
-    The codewords are:
+    Кодовые слова:
     {$codewords}.
-traitor-role-uplink-code-short = Your uplink code is {$code}. Set it as your PDA ringtone to access uplink.
-traitor-role-uplink-implant-short = Your uplink was implanted. Access it from your hotbar.
+traitor-role-uplink-code-short = Ваш код uplink: {$code}. Установите его в качестве рингтона вашего PDA, чтобы получить доступ к uplink.
+traitor-role-uplink-implant-short = Ваш uplink был имплантирован. Получите к нему доступ из вашей горячей панели.

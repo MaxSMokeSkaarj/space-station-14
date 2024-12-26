@@ -1,3 +1,3 @@
-electrocuted-component-mob-shocked-by-source-popup-others = { CAPITALIZE(THE($mob)) } is shocked by { THE($source) }!
-electrocuted-component-mob-shocked-popup-others = { CAPITALIZE(THE($mob)) } is shocked!
-electrocuted-component-mob-shocked-popup-player =  You feel a powerful shock coursing through your body!
+electrocuted-component-mob-shocked-by-source-popup-others = { CAPITALIZE(THE($mob)) } поражен { THE($source) }!
+electrocuted-component-mob-shocked-popup-others = { CAPITALIZE(THE($mob)) } поражен!
+electrocuted-component-mob-shocked-popup-player = Вы чувствуете мощный шок, проходящий через ваше тело!

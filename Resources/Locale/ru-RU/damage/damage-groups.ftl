@@ -1,6 +1,6 @@
-damage-group-brute = Brute
-damage-group-burn = Burn
-damage-group-airloss = Airloss
-damage-group-toxin = Toxin
-damage-group-genetic = Genetic
-damage-group-metaphysical = Metaphysical
+damage-group-brute = Брутальный
+damage-group-burn = Ожог
+damage-group-airloss = Потеря воздуха
+damage-group-toxin = Токсин
+damage-group-genetic = Генетический
+damage-group-metaphysical = Метафизический

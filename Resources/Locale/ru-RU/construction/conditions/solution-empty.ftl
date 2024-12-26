@@ -1,3 +1,3 @@
-# SolutionEmpty
-construction-examine-condition-solution-empty = First, empty the contents.
-construction-guide-condition-solution-empty = Empty the contents.
+# Пустое решение
+construction-examine-condition-solution-empty = Сначала опустошите содержимое.
+construction-guide-condition-solution-empty = Опустошите содержимое.

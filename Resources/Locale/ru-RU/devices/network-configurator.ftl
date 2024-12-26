@@ -1,45 +1,45 @@
-﻿# Popups
+﻿# Всплывающие сообщения
 
-network-configurator-device-saved = Successfully saved network device {$device} with address {$address}!
-network-configurator-device-failed = Failed to save network device {$device}! No address assigned!
-network-configurator-too-many-devices = Too many devices stored on this device!
-network-configurator-update-ok = Device storage updated.
-network-configurator-device-already-saved = network device: {$device} is already saved.
-network-configurator-device-access-denied = Access denied!
-network-configurator-link-mode-started = Started linking device: {$device}
-network-configurator-link-mode-stopped = Stopped linking.
-network-configurator-mode-link = Link
-network-configurator-mode-list = List
-network-configurator-switched-mode = Switched mode to: {$mode}
+network-configurator-device-saved = Успешно сохранено сетевое устройство {$device} с адресом {$address}!
+network-configurator-device-failed = Не удалось сохранить сетевое устройство {$device}! Адрес не назначен!
+network-configurator-too-many-devices = Слишком много устройств сохранено на этом устройстве!
+network-configurator-update-ok = Хранилище устройств обновлено.
+network-configurator-device-already-saved = Сетевое устройство: {$device} уже сохранено.
+network-configurator-device-access-denied = Доступ запрещен!
+network-configurator-link-mode-started = Начато связывание устройства: {$device}
+network-configurator-link-mode-stopped = Связывание остановлено.
+network-configurator-mode-link = Связывание
+network-configurator-mode-list = Список
+network-configurator-switched-mode = Переключен режим на: {$mode}
 
-# Verbs
-network-configurator-save-device = Save device
-network-configurator-configure = Configure
-network-configurator-switch-mode = Switch mode
-network-configurator-link-defaults = Link defaults
-network-configurator-start-link = Start link
-network-configurator-link = Link
+# Глаголы
+network-configurator-save-device = Сохранить устройство
+network-configurator-configure = Настроить
+network-configurator-switch-mode = Переключить режим
+network-configurator-link-defaults = Связать настройки по умолчанию
+network-configurator-start-link = Начать связывание
+network-configurator-link = Связать
 
-# ui
-network-configurator-title-saved-devices = Saved Devices
-network-configurator-title-device-configuration = Device Configuration
-network-configurator-ui-clear-button = Clear
-network-configurator-ui-count-label = {$count} Devices
+# интерфейс
+network-configurator-title-saved-devices = Сохраненные устройства
+network-configurator-title-device-configuration = Настройка устройства
+network-configurator-ui-clear-button = Очистить
+network-configurator-ui-count-label = {$count} Устройства
 
-# tooltips
-network-configurator-tooltip-set = Sets targets device list
-network-configurator-tooltip-add = Adds to targets device list
-network-configurator-tooltip-edit = Edit targets device list
-network-configurator-tooltip-clear = Clear targets device list
-network-configurator-tooltip-copy = Copy targets device list to held tool
-network-configurator-tooltip-show = Show a holographic visualization of targets device list
+# подсказки
+network-configurator-tooltip-set = Устанавливает список целевых устройств
+network-configurator-tooltip-add = Добавляет в список целевых устройств
+network-configurator-tooltip-edit = Редактировать список целевых устройств
+network-configurator-tooltip-clear = Очистить список целевых устройств
+network-configurator-tooltip-copy = Копировать список целевых устройств в удерживаемый инструмент
+network-configurator-tooltip-show = Показать голографическую визуализацию списка целевых устройств
 
-# examine
-network-configurator-examine-mode-link = [color=red]Link[/color]
-network-configurator-examine-mode-list = [color=green]List[/color]
-network-configurator-examine-current-mode = Current mode: {$mode}
-network-configurator-examine-switch-modes = Press {$key} to switch modes
+# исследование
+network-configurator-examine-mode-link = [color=red]Связывание[/color]
+network-configurator-examine-mode-list = [color=green]Список[/color]
+network-configurator-examine-current-mode = Текущий режим: {$mode}
+network-configurator-examine-switch-modes = Нажмите {$key}, чтобы переключить режимы
 
-# item status
-network-configurator-item-status-label = Mode: {$mode}
-    Switch: {$keybinding}
+# статус элемента
+network-configurator-item-status-label = Режим: {$mode}
+    Переключатель: {$keybinding}
