@@ -1,54 +1,54 @@
-device-pda-slot-component-slot-name-cartridge = Cartridge
+|device-pda-slot-component-slot-name-cartridge = Картридж
 
-default-program-name = Program
-notekeeper-program-name = Notekeeper
-news-read-program-name = Station news
+default-program-name = Программа
+notekeeper-program-name = Дневник
+news-read-program-name = Новости станции
 
-crew-manifest-program-name = Crew manifest
-crew-manifest-cartridge-loading = Loading ...
+crew-manifest-program-name = Список экипажа
+crew-manifest-cartridge-loading = Загрузка ...
 
 net-probe-program-name = NetProbe
-net-probe-scan = Scanned {$device}!
-net-probe-label-name = Name
-net-probe-label-address = Address
-net-probe-label-frequency = Frequency
-net-probe-label-network = Network
+net-probe-scan = Сканирование {$device} завершено!
+net-probe-label-name = Имя
+net-probe-label-address = Адрес
+net-probe-label-frequency = Частота
+net-probe-label-network = Сеть
 
 log-probe-program-name = LogProbe
-log-probe-scan = Downloaded logs from {$device}!
-log-probe-label-time = Time
-log-probe-label-accessor = Accessed by
+log-probe-scan = Логи загружены с {$device}!
+log-probe-label-time = Время
+log-probe-label-accessor = Получено от
 log-probe-label-number = #
 
 astro-nav-program-name = AstroNav
 
 med-tek-program-name = MedTek
 
-# Wanted list cartridge
-wanted-list-program-name = Wanted list
-wanted-list-label-no-records = It's all right, cowboy
-wanted-list-search-placeholder = Search by name and status
+# Список разыскиваемых
+wanted-list-program-name = Список разыскиваемых
+wanted-list-label-no-records = Все в порядке, ковбой
+wanted-list-search-placeholder = Поиск по имени и статусу
 
-wanted-list-age-label = [color=darkgray]Age:[/color] [color=white]{$age}[/color]
-wanted-list-job-label = [color=darkgray]Job:[/color] [color=white]{$job}[/color]
-wanted-list-species-label = [color=darkgray]Species:[/color] [color=white]{$species}[/color]
-wanted-list-gender-label = [color=darkgray]Gender:[/color] [color=white]{$gender}[/color]
+wanted-list-age-label = [color=darkgray]Возраст:[/color] [color=white]{$age}[/color]
+wanted-list-job-label = [color=darkgray]Работа:[/color] [color=white]{$job}[/color]
+wanted-list-species-label = [color=darkgray]Вид:[/color] [color=white]{$species}[/color]
+wanted-list-gender-label = [color=darkgray]Пол:[/color] [color=white]{$gender}[/color]
 
-wanted-list-reason-label = [color=darkgray]Reason:[/color] [color=white]{$reason}[/color]
-wanted-list-unknown-reason-label = unknown reason
+wanted-list-reason-label = [color=darkgray]Причина:[/color] [color=white]{$reason}[/color]
+wanted-list-unknown-reason-label = неизвестная причина
 
-wanted-list-initiator-label = [color=darkgray]Initiator:[/color] [color=white]{$initiator}[/color]
-wanted-list-unknown-initiator-label = unknown initiator
+wanted-list-initiator-label = [color=darkgray]Инициатор:[/color] [color=white]{$initiator}[/color]
+wanted-list-unknown-initiator-label = неизвестный инициатор
 
-wanted-list-status-label = [color=darkgray]status:[/color] {$status ->
-        [suspected] [color=yellow]suspected[/color]
-        [wanted] [color=red]wanted[/color]
-        [detained] [color=#b18644]detained[/color]
-        [paroled] [color=green]paroled[/color]
-        [discharged] [color=green]discharged[/color]
-        *[other] none
+wanted-list-status-label = [color=darkgray]Статус:[/color] {$status ->
+        [suspected] [color=yellow]подозреваемый[/color]
+        [wanted] [color=red]разыскиваемый[/color]
+        [detained] [color=#b18644]задержан[/color]
+        [paroled] [color=green]освобожден под залог[/color]
+        [discharged] [color=green]освобожден[/color]
+        *[other] нет
     }
 
-wanted-list-history-table-time-col = Time
-wanted-list-history-table-reason-col = Crime
-wanted-list-history-table-initiator-col = Initiator
+wanted-list-history-table-time-col = Время
+wanted-list-history-table-reason-col = Преступление
+wanted-list-history-table-initiator-col = Инициатор
