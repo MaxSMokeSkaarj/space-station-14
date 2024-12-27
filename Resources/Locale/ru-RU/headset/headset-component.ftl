@@ -1,21 +1,21 @@
-# Chat window radio wrap (prefix and postfix)
+# Обертка радиосообщения в чате (префикс и постфикс)
 chat-radio-message-wrap = [color={$color}]{$channel} [bold]{$name}[/bold] {$verb}, [font={$fontType} size={$fontSize}]"{$message}"[/font][/color]
 chat-radio-message-wrap-bold = [color={$color}]{$channel} [bold]{$name}[/bold] {$verb}, [font={$fontType} size={$fontSize}][bold]"{$message}"[/bold][/font][/color]
 
-examine-headset-default-channel = Use {$prefix} for the default channel ([color={$color}]{$channel}[/color]).
+examine-headset-default-channel = Используйте {$prefix} для канала по умолчанию ([color={$color}]{$channel}[/color]).
 
-chat-radio-common = Common
-chat-radio-centcom = CentComm
-chat-radio-command = Command
-chat-radio-engineering = Engineering
-chat-radio-medical = Medical
-chat-radio-science = Science
-chat-radio-security = Security
-chat-radio-service = Service
-chat-radio-supply = Supply
-chat-radio-syndicate = Syndicate
-chat-radio-freelance = Freelance
+chat-radio-common = Общий
+chat-radio-centcom = Центрральное командования
+chat-radio-command = Команда
+chat-radio-engineering = Инженерия
+chat-radio-medical = Медицина
+chat-radio-science = Наука
+chat-radio-security = Безопасность
+chat-radio-service = Обслуживание
+chat-radio-supply = Запас
+chat-radio-syndicate = Синдикат
+chat-radio-freelance = Фриланс
 
-# not headset but whatever
-chat-radio-handheld = Handheld
-chat-radio-binary = Binary
+# Не гарнитура, а что угодно
+chat-radio-handheld = Портативный
+chat-radio-binary = Двоичный

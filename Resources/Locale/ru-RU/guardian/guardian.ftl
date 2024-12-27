@@ -1,25 +1,23 @@
+## Специфично для хозяина хранителя
 
-## Guardian host specific
+guardian-created = Вы чувствуете... Призрачно.
+guardian-already-present-invalid-creation = Вы не можете снова пережить этот пугающий опыт!
+guardian-no-actions-invalid-creation = У вас нет возможности быть хозяином хранителя!
+guardian-activator-empty-invalid-creation = Инъектор исчерпан.
+guardian-activator-empty-examine = [color=#ba1919]Инъектор исчерпан.[/color]
+# TODO: Изменить это, как только другие виды смогут его инъектировать?
+guardian-activator-invalid-target = Только люди могут быть инъектированы!
+guardian-no-soul = У вашего хранителя нет души.
+guardian-available = У вашего хранителя теперь есть душа.
+guardian-inside-container = Нет места, чтобы освободить вашего хранителя!
 
-guardian-created = You feel... Haunted.
-guardian-already-present-invalid-creation = You are NOT re-living that haunting experience!
-guardian-no-actions-invalid-creation = You don't have the ability to host a guardian!
-guardian-activator-empty-invalid-creation = The injector is spent.
-guardian-activator-empty-examine = [color=#ba1919]The injector is spent.[/color]
-# TODO: Change this once other species can inject it?
-guardian-activator-invalid-target = Only humans can be injected!
-guardian-no-soul = Your guardian has no soul.
-guardian-available = Your guardian now has a soul.
-guardian-inside-container = There's no room to release your guardian!
+## Специфично для сущности хранителя
 
-## Guardian entity specific
+guardian-entity-recall = Хранитель исчезает в воздухе!
+guardian-entity-taking-damage = Ваш хранитель получает урон!
 
-guardian-entity-recall = The guardian vanishes into thin air!
-guardian-entity-taking-damage = Your guardian is taking damage!
-
-## Health warnings
-guardian-host-critical-warn = YOUR HOST IS WOUNDED!
-guardian-host-death-warn = YOUR FORM SUCCUMBS TO NONEXISTENCE!
-guardian-death-warn = YOUR BODY IS PIERCED BY SUBATOMIC PAIN AS IT DISINTEGRATES!
-guardian-attack-host = You cannot attack your host.
-
+## Предупреждения о здоровье
+guardian-host-critical-warn = ВАШ ХОЗЯИН РАНЕН!
+guardian-host-death-warn = ВАША ФОРМА ПОДДАЕТСЯ НЕНАВИСТИ!
+guardian-death-warn = ВАШЕ ТЕЛО ПРОНИКНУТО СУБАТОМНОЙ БОЛЬЮ, ПОКА ОНО РАСПАДАЕТСЯ!
+guardian-attack-host = Вы не можете атаковать своего хозяина.

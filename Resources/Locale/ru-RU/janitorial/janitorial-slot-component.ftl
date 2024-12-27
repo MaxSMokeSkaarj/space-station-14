@@ -1,11 +1,11 @@
-# mop bucket
-mop-bucket-slot-component-slot-name-item = Item
-mop-bucket-slot-component-eject-verb = Take out
-# janitorial trolley
-janitorial-trolley-slot-component-slot-name-plunger = Plunger
-janitorial-trolley-slot-component-slot-name-sign = Sign
-janitorial-trolley-slot-component-slot-name-lightreplacer = Light Replacer
-janitorial-trolley-slot-component-slot-name-spray = Spray
-janitorial-trolley-slot-component-slot-name-bucket = Bucket
-janitorial-trolley-slot-component-slot-name-trashbag = Trash Bag
-janitorial-trolley-slot-component-slot-name-mop = Mop
+# ведро для швабры
+mop-bucket-slot-component-slot-name-item = Предмет
+mop-bucket-slot-component-eject-verb = Вынуть
+# уборочная тележка
+janitorial-trolley-slot-component-slot-name-plunger = Вантуз
+janitorial-trolley-slot-component-slot-name-sign = Знак
+janitorial-trolley-slot-component-slot-name-lightreplacer = Сменщик ламп
+janitorial-trolley-slot-component-slot-name-spray = Спрей
+janitorial-trolley-slot-component-slot-name-bucket = Ведро
+janitorial-trolley-slot-component-slot-name-trashbag = Мусорный пакет
+janitorial-trolley-slot-component-slot-name-mop = Швабра

@@ -1,10 +1,10 @@
-guidebook-window-title = Guidebook
-guidebook-placeholder-text = Select an entry.
-guidebook-placeholder-text-2 = If you're new, head over to "New? Start here!"
-guidebook-filter-placeholder-text = Filter items
+guidebook-window-title = Справочник
+guidebook-placeholder-text = Выберите запись.
+guidebook-placeholder-text-2 = Если вы новичок, перейдите в раздел "Новичок? Начните здесь!"
+guidebook-filter-placeholder-text = Фильтровать элементы
 
-guidebook-parser-error = Parser Error
-guidebook-error-message = Error Message
+guidebook-parser-error = Ошибка парсера
+guidebook-error-message = Сообщение об ошибке
 
-guidebook-monkey-unspin = Unspin Monkey
-guidebook-monkey-disco = Disco Monkey
+guidebook-monkey-unspin = Развернуть Обезьяну
+guidebook-monkey-disco = Диско Обезьяна
