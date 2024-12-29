@@ -1,6 +1,6 @@
-﻿advertisement-theater-1 = Одевайся на успех!
-advertisement-theater-2 = В костюме и при обуви!
+advertisement-theater-1 = Одевайтесь для успеха!
+advertisement-theater-2 = Одетый и обутый!
 advertisement-theater-3 = Время шоу!
-advertisement-theater-4 = Зачем оставлять стиль на волю судьбы? Используй AutoDrobe!
-advertisement-theater-5 = Все странные наряды и одежда, от роб до гладиаторов и кто знает что еще!
-advertisement-theater-6 = Клоун оценит твой наряд!
+advertisement-theater-4 = Зачем оставлять стиль на волю судьбы? Используйте ТеатроШкаф!
+advertisement-theater-5 = Любые причудливые наряды, от одеяний гладиаторов до чёрт знает чего!
+advertisement-theater-6 = Клоун оценит ваш наряд!

@@ -1,9 +1,8 @@
-﻿# Правила
+# Rules
 
-ui-rules-header = Официальные правила сервера Wizard's Den
-ui-rules-header-rp = Официальные правила ролевого сервера Wizard's Den
-ui-rules-accept = Я прочитал(а) и согласен(на) следовать правилам
-ui-rules-wait = Кнопка принятия будет активирована через {$time} секунд.
-
-ui-rules-button-home = Главная
+ui-rules-header = Правила сервера
+ui-rules-header-rp = Правила сервера
+ui-rules-accept = Я ознакомился и согласен следовать правилам
+ui-rules-wait = Кнопка принятия будет разблокирована через { $time } секунд.
+ui-rules-button-home = В начало
 ui-rules-button-back = Назад

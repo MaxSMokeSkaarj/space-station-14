@@ -1,15 +1,11 @@
 ### UI
 
-# Отображается при проверке окна. Каждая запись представляет работоспособное состояние окна.
-comp-window-damaged-1 = Он выглядит не повреждённым.
-comp-window-damaged-2 = На нем есть несколько царапин.
-comp-window-damaged-3 = На нем есть несколько небольших трещин.
-comp-window-damaged-4 = [color=yellow]По его поверхности проходит несколько больших трещин.[/color]
-comp-window-damaged-5 = [color=orange]На нем есть глубокие трещины в нескольких слоях.[/color]
-comp-window-damaged-6 = [color=red]Она сильно потрескалась и вот-вот рассыпется.[/color]
-
-### Сообщения о взаимодействии
-
-# Показано при стуке в окно
-comp-window-knock = *тук-тук*
-
+# Shown when examining the window. Each entry represents the window's health condition
+comp-window-damaged-1 = Повреждений нет.
+comp-window-damaged-2 = Имеется несколько царапин.
+comp-window-damaged-3 = Имеется несколько маленьких трещин.
+comp-window-damaged-4 = [color=yellow]Имеется несколько больших трещин.[/color]
+comp-window-damaged-5 = [color=orange]Имеется множество глубоких больших трещин.[/color]
+comp-window-damaged-6 = [color=red]Всё в глубоких трещинах, вот-вот разрушится.[/color]
+# Shown when knocking on a window
+comp-window-knock = *тук тук*

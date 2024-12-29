@@ -1,1 +1,1 @@
-﻿item-status-not-held = Вы не держите предмет
+item-status-not-held = В руке пусто

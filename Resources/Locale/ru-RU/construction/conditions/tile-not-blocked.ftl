@@ -1,1 +1,1 @@
-construction-step-condition-tile-not-blocked = Плитка не должна быть заблокирована.
+construction-step-condition-tile-not-blocked = Клетка не должна быть перекрыта.

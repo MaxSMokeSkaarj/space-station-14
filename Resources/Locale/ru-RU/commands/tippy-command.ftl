@@ -1,12 +1,11 @@
-cmd-tippy-desc = Транслирует сообщение от имени Клоуна Типпи.
-cmd-tippy-help = tippy <пользователь | все> <сообщение> [прототип сущности] [время речи] [время скольжения] [интервал вальса]
-cmd-tippy-auto-1 = <пользователь | все>
-cmd-tippy-auto-2 = сообщение
+cmd-tippy-desc = Передать сообщение от имени клоуна Типпи.
+cmd-tippy-help = tippy <user | all> <message> [entity prototype] [speak time] [slide time] [waddle interval]
+cmd-tippy-auto-1 = <user | all>
+cmd-tippy-auto-2 = текст
 cmd-tippy-auto-3 = прототип сущности
-cmd-tippy-auto-4 = время речи, в секундах
-cmd-tippy-auto-5 = время скольжения, в секундах
-cmd-tippy-auto-6 = интервал вальса, в секундах
+cmd-tippy-auto-4 = время сообщения, в секундах
+cmd-tippy-auto-5 = время анимации, в секундах
+cmd-tippy-auto-6 = интервал прыжков, в секундах
 cmd-tippy-error-no-user = Пользователь не найден.
-cmd-tippy-error-no-prototype = Прототип не найден: {$proto}
-
-cmd-tip-desc = Спавнит случайный игровой совет.
+cmd-tippy-error-no-prototype = Прототип не найден: { $proto }
+cmd-tip-desc = Спавн случайного игрового совета.

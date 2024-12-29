@@ -1,5 +1,3 @@
-rat-king-domain-popup = Облако аммония был выпущен
-
-rat-king-too-hungry = Вы слишком голодны что-бы использовать !
-
-rat-king-rummage-text = Рыться
+rat-king-domain-popup = В воздух поднимается облако аммиака.
+rat-king-too-hungry = Вы слишком голодны, чтобы использовать эту способность!
+rat-king-rummage-text = Обшарить

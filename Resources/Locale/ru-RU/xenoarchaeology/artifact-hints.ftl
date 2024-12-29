@@ -1,5 +1,5 @@
-# вы не должны создавать новые подсказки для каждого эффекта / триггера
-# попробуйте использовать их повторно, чтобы подсказка не выдавала вас с головой. -эмо
+# you shouldn't be creating new hints for every effect/trigger
+# try and reuse them so that a hint isn't a dead giveaway. -emo
 
 artifact-effect-hint-mental = Мозговое воздействие
 artifact-effect-hint-environment = Воздействие на окружение
@@ -22,8 +22,8 @@ artifact-effect-hint-polymorph = Трансмогрификационная ак
 artifact-effect-hint-magnet = Магнитные волны
 artifact-effect-hint-visual = Визуальное искажение
 
-# триггеры должны быть более очевидными, чем эффекты
-# дает людям представление о том, что делать: не будьте слишком конкретны (т.е. Никаких "MaxSMokeSkaarj").
+# the triggers should be more obvious than the effects
+# gives people an idea of what to do: don't be too specific (i.e. no "welders")
 
 artifact-trigger-hint-electricity = Электричество
 artifact-trigger-hint-heat = Высокая температура

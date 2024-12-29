@@ -1,5 +1,4 @@
-
 ### UI
 
-# Показывается, когда аккумулятор рассматривается в деталях
-examinable-battery-component-examine-detail = Аккумулятор заполнен на [color={$markupPercentColor}]{$percent}%[/color].
+# Shown when the battery is examined in details range
+examinable-battery-component-examine-detail = Батарея заряжена на [color={ $markupPercentColor }]{ $percent }%[/color].

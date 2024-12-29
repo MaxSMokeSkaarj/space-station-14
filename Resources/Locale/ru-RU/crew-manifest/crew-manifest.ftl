@@ -1,4 +1,4 @@
-crew-manifest-window-title = Экипаж
-crew-manifest-button-label = Экипаж
-crew-manifest-button-description = Показать список ваших товарищей по экипажу
-crew-manifest-no-valid-station = Неверная станция или пустой манифест!
+crew-manifest-window-title = Манифест экипажа
+crew-manifest-button-label = Манифест экипажа
+crew-manifest-button-description = Показать список членов экипажа
+crew-manifest-no-valid-station = Некорректная станция или пустой манифест!

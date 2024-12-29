@@ -1,23 +1,23 @@
-## Специфично для хозяина хранителя
+## Guardian host specific
 
-guardian-created = Вы чувствуете... Призрачно.
-guardian-already-present-invalid-creation = Вы не можете снова пережить этот пугающий опыт!
-guardian-no-actions-invalid-creation = У вас нет возможности быть хозяином хранителя!
-guardian-activator-empty-invalid-creation = Инъектор исчерпан.
-guardian-activator-empty-examine = [color=#ba1919]Инъектор исчерпан.[/color]
-# TODO: Изменить это, как только другие виды смогут его инъектировать?
-guardian-activator-invalid-target = Только люди могут быть инъектированы!
-guardian-no-soul = У вашего хранителя нет души.
-guardian-available = У вашего хранителя теперь есть душа.
-guardian-inside-container = Нет места, чтобы освободить вашего хранителя!
+guardian-created = Вы чувствуете... Одержимость.
+guardian-already-present-invalid-creation = Вы НЕ переживёте заново ту одержимость!
+guardian-no-actions-invalid-creation = У вас нет возможности содержать в себе стража!
+guardian-activator-empty-invalid-creation = Инъектор израсходован.
+guardian-activator-empty-examine = [color=#ba1919]Инъектор израсходован.[/color].
+guardian-activator-invalid-target = Только гуманоиды подходят для инъекции!
+guardian-no-soul = У вашего стража нет души.
+guardian-available = У вашего стража теперь есть душа.
+guardian-inside-container = Здесь не хватает места, чтобы высвободить стража!
 
-## Специфично для сущности хранителя
+## Guardian entity specific
 
-guardian-entity-recall = Хранитель исчезает в воздухе!
-guardian-entity-taking-damage = Ваш хранитель получает урон!
+guardian-entity-recall = Страж исчезает в воздухе!
+guardian-entity-taking-damage = Ваш страж получает урон!
 
-## Предупреждения о здоровье
+## Health warnings
+
 guardian-host-critical-warn = ВАШ ХОЗЯИН РАНЕН!
-guardian-host-death-warn = ВАША ФОРМА ПОДДАЕТСЯ НЕНАВИСТИ!
-guardian-death-warn = ВАШЕ ТЕЛО ПРОНИКНУТО СУБАТОМНОЙ БОЛЬЮ, ПОКА ОНО РАСПАДАЕТСЯ!
+guardian-host-death-warn = ВЫ ПЕРЕСТАЁТЕ СУЩЕСТВОВАТЬ
+guardian-death-warn = ВАШЕ ТЕЛО ПРОНЗАЕТ СУБАТОМНАЯ БОЛЬ, КОГДА ОНО РАСПАДАЕТСЯ!
 guardian-attack-host = Вы не можете атаковать своего хозяина.

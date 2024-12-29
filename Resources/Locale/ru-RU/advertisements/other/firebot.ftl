@@ -1,4 +1,4 @@
-advertisement-firebot-1 = Пожары не обнаружены.
-advertisement-firebot-2 = Только ты можешь предотвратить пожары на станции.
-advertisement-firebot-3 = Температура в норме.
-advertisement-firebot-4 = Держи всё под контролем.
+advertisement-firebot-1 = Пожара не обнаружено.
+advertisement-firebot-2 = Только вы можете предотвратить пожар на станции.
+advertisement-firebot-3 = Температура допустимая.
+advertisement-firebot-4 = Сохраняйте прохладу.

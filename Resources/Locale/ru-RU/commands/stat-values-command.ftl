@@ -1,25 +1,21 @@
-stat-values-desc = Выводит все статистические данные для определенной категории в таблицу.
-stat-values-server = Нельзя выполнить на сервере!
-stat-values-args = Неверное количество аргументов, требуется 1
-stat-values-invalid = {$arg} не является допустимой статистикой!
-
-# карго
-stat-cargo-values = Цены продажи грузов
+stat-values-desc = Выгружает всю статистику для определённой категории в таблицу.
+stat-values-server = Не может быть запущено на сервере!
+stat-values-args = Неверное число аргументов, нужен 1
+stat-values-invalid = { $arg } не является действительной характеристикой!
+# Cargo
+stat-cargo-values = Цена продажи груза
 stat-cargo-id = ID
 stat-cargo-price = Цена
-
-# *лат
-stat-lathe-values = Цены продажи токарных станков
+# Lathe
+stat-lathe-values = Стоимость печати в лате
 stat-lathe-id = ID
 stat-lathe-cost = Стоимость
 stat-lathe-sell = Цена продажи
-
-# Размеры предметов
+# Item Sizes
 stat-item-values = Размеры предметов
 stat-item-id = ID
 stat-item-price = Размер
-
-# Скорость отрисовки
-stat-drawrate-values = Скорость отрисовки APC
+# Draw Rate
+stat-drawrate-values = Уровень потребления ЛКП
 stat-drawrate-id = ID
-stat-drawrate-rate = Скорость отрисовки (Вт)
+stat-drawrate-rate = Уровень потребления (Вт)

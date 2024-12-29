@@ -1,1 +1,1 @@
-﻿bodyburn-text-others = {$name} сгорает до тла!
+bodyburn-text-others = { $name } сгорает дотла!

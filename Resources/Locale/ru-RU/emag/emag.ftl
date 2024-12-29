@@ -1,2 +1,2 @@
-emag-success = Карта поражает что-то в {THE($target)}.
-emag-no-charges = Заряды закончились!
+emag-success = Карточка замыкает что-то в { $target }.
+emag-no-charges = Не осталось зарядов!

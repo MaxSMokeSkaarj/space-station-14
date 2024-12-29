@@ -1,5 +1,3 @@
-container-verb-text-enter = Войти
-container-verb-text-empty = Пустой
-
-## missed
+container-verb-text-enter = Забраться
+container-verb-text-empty = Покинуть
 container-thrown-missed = Промах!

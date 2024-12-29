@@ -1,5 +1,5 @@
-disarm-action-disarmable = {CAPITALIZE(THE($targetName))} не поддается разоружению!
-disarm-action-popup-message-other-clients = {CAPITALIZE(THE($performerName))} разоружил(а) {THE($targetName)}!
-disarm-action-popup-message-cursor = Разоружил(а) {THE($targetName)}!
-disarm-action-shove-popup-message-other-clients = {CAPITALIZE(THE($performerName))} толкает {THE($targetName)}!
-disarm-action-shove-popup-message-cursor = Вы толкаете {THE($targetName)}!
+disarm-action-disarmable = { CAPITALIZE($targetName) } нельзя обезоружить!
+disarm-action-popup-message-other-clients = { CAPITALIZE($performerName) } обезоружил { $targetName }!
+disarm-action-popup-message-cursor = { CAPITALIZE($targetName) } обезоружен!
+disarm-action-shove-popup-message-other-clients = { CAPITALIZE($performerName) } толкает { $targetName }!
+disarm-action-shove-popup-message-cursor = Вы толкаете { $targetName }!

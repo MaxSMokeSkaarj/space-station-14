@@ -1,6 +1,8 @@
-﻿## UI
-chameleon-component-ui-window-name = Настройки Хамелеона
+## UI
+
+chameleon-component-ui-window-name = Настройки хамелеона
 chameleon-component-ui-search-placeholder = Поиск...
 
-## Глагол
+## Verb
+
 chameleon-component-verb-text = Хамелеон

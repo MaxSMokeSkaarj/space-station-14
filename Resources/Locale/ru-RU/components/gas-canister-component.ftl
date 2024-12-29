@@ -1,25 +1,18 @@
-comp-gas-canister-ui-canister-status = Статус баллона
-comp-gas-canister-ui-canister-relabel = Переименовать
-comp-gas-canister-ui-canister-pressure = Давление в баллоне:
-
+comp-gas-canister-ui-canister-status = Статус канистры
+comp-gas-canister-ui-canister-relabel = Перемаркировать
+comp-gas-canister-ui-canister-pressure = Давление в канистре:
 comp-gas-canister-ui-port-status = Статус порта:
-comp-gas-canister-ui-port-connected = Подключен
-comp-gas-canister-ui-port-disconnected = Отключен
-
-comp-gas-canister-ui-holding-tank-status = Статус резервуара
-comp-gas-canister-ui-holding-tank-label = Метка резервуара:
-comp-gas-canister-ui-holding-tank-label-empty = Пусто
-comp-gas-canister-ui-holding-tank-pressure = Давление в резервуаре:
+comp-gas-canister-ui-port-connected = Подключено
+comp-gas-canister-ui-port-disconnected = Отключено
+comp-gas-canister-ui-holding-tank-status = Статус вставленного баллона
+comp-gas-canister-ui-holding-tank-label = Тип баллона:
+comp-gas-canister-ui-holding-tank-label-empty = Отсутствует
+comp-gas-canister-ui-holding-tank-pressure = Давление баллона:
 comp-gas-canister-ui-holding-tank-eject = Извлечь
-
-comp-gas-canister-ui-release-valve-status = Статус выпускного клапана
-comp-gas-canister-ui-release-pressure = Давление выпуска (кПа):
+comp-gas-canister-ui-release-valve-status = Состояние выпускного клапана
+comp-gas-canister-ui-release-pressure = Выпускное давление:
 comp-gas-canister-ui-release-valve = Выпускной клапан:
-comp-gas-canister-ui-release-valve-open = Открыть
-comp-gas-canister-ui-release-valve-close = Закрыть
-
-comp-gas-canister-ui-pressure = {$pressure} кПа
-
-# Слот для газового баллона
-
-comp-gas-canister-slot-name-gas-tank = Газовый баллон
+comp-gas-canister-ui-release-valve-open = Открыт
+comp-gas-canister-ui-release-valve-close = Закрыт
+comp-gas-canister-ui-pressure = { $pressure } кПа
+comp-gas-canister-slot-name-gas-tank = Баллон

@@ -1,4 +1,4 @@
-advertisement-robodrobe-1 = Ты делаешь меня ИСТИННЫМ, используй определения!
-advertisement-robodrobe-2 = 0110001101101100011011110111010001101000011001010111001101101000011001010111001001100101
-advertisement-robodrobe-3 = Укради кого-то из службы технического обслуживания и преврати его в робота!
-advertisement-robodrobe-4 = Робототехника — это весело!
+advertisement-robodrobe-1 = You turn me TRUE, use defines!
+advertisement-robodrobe-2 = 110100001011111011010000101101001101000010110101110100001011011011010000101101001101000010110000
+advertisement-robodrobe-3 = Похитьте кого-нибудь из техтуннелей и превратите его в киборга!
+advertisement-robodrobe-4 = Робототехника - это весело!

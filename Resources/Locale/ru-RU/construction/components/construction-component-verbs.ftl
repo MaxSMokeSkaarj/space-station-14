@@ -1,3 +1,3 @@
-deconstructible-verb-begin-deconstruct = Начать демонтаж
-deconstructible-verb-activate-no-target-text = Невозможно демонтировать это.
-deconstructible-verb-activate-text = Изучите, чтобы увидеть инструкции.
+deconstructible-verb-begin-deconstruct = Начать разборку
+deconstructible-verb-activate-no-target-text = Это нельзя разобрать.
+deconstructible-verb-activate-text = Осмотрите чтобы увидеть инструкцию.

@@ -1,28 +1,30 @@
-### Генератор Гравитации
+### Gravity Generator
 
 ## UI
 
-gravity-generator-window-title = Генератор Гравитации
+gravity-generator-window-title = Генератор гравитации
 
-## Названия полей UI
+## UI field names
 
-gravity-generator-window-status = Статус:
-gravity-generator-window-power = Мощность:
-gravity-generator-window-eta = Ожидаемое время:
+gravity-generator-window-status = Состояние:
+gravity-generator-window-power = Питание:
+gravity-generator-window-eta = Оставшееся время:
 gravity-generator-window-charge = Заряд:
 
-## Статусы UI
+## UI statuses
+
 gravity-generator-window-status-fully-charged = Полностью заряжен
 gravity-generator-window-status-off = Выключен
 gravity-generator-window-status-charging = Заряжается
 gravity-generator-window-status-discharging = Разряжается
 
-## Кнопки мощности UI
-gravity-generator-window-power-on = Включено
-gravity-generator-window-power-off = Выключено
+## UI Power Buttons
+
+gravity-generator-window-power-on = Вкл
+gravity-generator-window-power-off = Выкл
 gravity-generator-window-power-label = { $draw } / { $max } Вт
 
-## Метка ETA
+## UI ETA label
 
 gravity-generator-window-eta-none = Н/Д
-gravity-generator-window-eta-value = { TOSTRING($left, "м\\:сс") }
+gravity-generator-window-eta-value = { TOSTRING($left, "m\\:ss") }

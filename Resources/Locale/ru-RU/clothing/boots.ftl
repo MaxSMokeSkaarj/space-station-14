@@ -1,1 +1,1 @@
-clothing-boots-sidearm = Карман
+clothing-boots-sidearm = Личное оружие

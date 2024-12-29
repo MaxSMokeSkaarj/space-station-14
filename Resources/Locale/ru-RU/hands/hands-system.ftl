@@ -1,6 +1,7 @@
-# Осмотр текста, когда они держат что-то (в руках)
-comp-hands-examine = { CAPITALIZE(SUBJECT($user)) } { CONJUGATE-BE($user) } держит { $items }.
-comp-hands-examine-empty = { CAPITALIZE(SUBJECT($user)) } { CONJUGATE-BE($user) } не держит ничего.
-comp-hands-examine-wrapper = { INDEFINITE($item) } [color=paleturquoise]{$item}[/color]
+## HandsSystem
 
-hands-system-blocked-by = Заблокировано
+# Examine text after when they're holding something (in-hand)
+comp-hands-examine = { CAPITALIZE(SUBJECT($user)) } держит { $items }.
+comp-hands-examine-empty = { CAPITALIZE(SUBJECT($user)) } ничего не держит.
+comp-hands-examine-wrapper = [color=paleturquoise]{ $item }[/color]
+hands-system-blocked-by = Руки заняты

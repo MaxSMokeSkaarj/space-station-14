@@ -1,12 +1,11 @@
-flatpack-unpack-no-room = Нет места для распаковки!
-flatpack-examine = Используйте [color=yellow]мультитул[/color] для распаковки этого.
-flatpack-entity-name = Упаковка {$name}
-flatpack-entity-description = Упаковка, используемая для строительства {INDEFINITE($name)} {$name}.
-
-flatpacker-item-slot-name = Слот для машинной платы
-flatpacker-ui-title = Flatpacker 1001
+flatpack-unpack-no-room = Недостаточно места чтобы распаковать!
+flatpack-examine = Используйте [color=yellow]мультитул[/color] чтобы распаковать это.
+flatpack-entity-name = упакованный { $name }
+flatpack-entity-description = Упаковка, при помощи которой можно создать { $name }.
+flatpacker-item-slot-name = Слот машинной платы
+flatpacker-ui-title = Упаковщик 1001
 flatpacker-ui-materials-label = Материалы
-flatpacker-ui-cost-label = Стоимость упаковки
-flatpacker-ui-no-board-label = Плата не установлена!
-flatpacker-ui-insert-board = Вставьте плату, чтобы начать.
+flatpacker-ui-cost-label = Стоимость запаковки
+flatpacker-ui-no-board-label = Отсутствует машинная плата!
+flatpacker-ui-insert-board = Для начала вставьте машинную плату.
 flatpacker-ui-pack-button = Упаковать

@@ -1,21 +1,18 @@
-# Обертка радиосообщения в чате (префикс и постфикс)
-chat-radio-message-wrap = [color={$color}]{$channel} [bold]{$name}[/bold] {$verb}, [font={$fontType} size={$fontSize}]"{$message}"[/font][/color]
-chat-radio-message-wrap-bold = [color={$color}]{$channel} [bold]{$name}[/bold] {$verb}, [font={$fontType} size={$fontSize}][bold]"{$message}"[/bold][/font][/color]
-
-examine-headset-default-channel = Используйте {$prefix} для канала по умолчанию ([color={$color}]{$channel}[/color]).
-
+# Chat window radio wrap (prefix and postfix)
+chat-radio-message-wrap = [color={ $color }]{ $channel } [bold]{ $name }[/bold] { $verb }, [font={ $fontType } size={ $fontSize }]"{ $message }"[/font][/color]
+chat-radio-message-wrap-bold = [color={ $color }]{ $channel } [bold]{ $name }[/bold] { $verb }, [font={ $fontType } size={ $fontSize }][bold]"{ $message }"[/bold][/font][/color]
+examine-headset-default-channel = Отображается, что каналом по умолчанию этой гарнитуры является [color={ $color }]{ $channel }[/color].
 chat-radio-common = Общий
-chat-radio-centcom = Центрральное командования
-chat-radio-command = Команда
-chat-radio-engineering = Инженерия
-chat-radio-medical = Медицина
-chat-radio-science = Наука
+chat-radio-centcom = Центком
+chat-radio-command = Командный
+chat-radio-engineering = Инженерный
+chat-radio-medical = Медицинский
+chat-radio-science = Научный
 chat-radio-security = Безопасность
-chat-radio-service = Обслуживание
-chat-radio-supply = Запас
+chat-radio-service = Сервис
+chat-radio-supply = Снабжение
 chat-radio-syndicate = Синдикат
 chat-radio-freelance = Фриланс
-
-# Не гарнитура, а что угодно
+# not headset but whatever
 chat-radio-handheld = Портативный
 chat-radio-binary = Двоичный

@@ -1,28 +1,23 @@
 ## UI
 
-ui-disposal-unit-title = Устройство для утилизации
-
+ui-disposal-unit-title = Утилизационный блок
 ui-disposal-unit-label-state = Состояние:
 ui-disposal-unit-label-pressure = Давление:
-ui-disposal-unit-label-status = Готово
+ui-disposal-unit-label-status = Готов
+ui-disposal-unit-button-flush = Смыть
+ui-disposal-unit-button-eject = Извлечь всё
+ui-disposal-unit-button-power = Питание
 
-ui-disposal-unit-button-flush = Слить
-ui-disposal-unit-button-eject = Извлечь содержимое
-ui-disposal-unit-button-power = Включить
+## No hands
 
-## Глаголы
-disposal-flush-verb-get-data-text = Слить
-disposal-self-insert-verb-get-data-text = Прыгнуть внутрь
-disposal-eject-verb-get-data-text = Извлечь содержимое
-
-## Нет рук
 disposal-unit-no-hands = У вас нет рук!
-
-# состояние
-disposal-unit-state-Ready = Готово
-# Да, я хочу, чтобы всегда говорило "Нагнетание"
+disposal-flush-verb-get-data-text = Смыть
+# state
+disposal-unit-state-Ready = Готов
+# Yes I want it to always say Pressurizing
 disposal-unit-state-Flushed = Нагнетание
 disposal-unit-state-Pressurizing = Нагнетание
-
-# вставка людей
-disposal-unit-being-inserted = {CAPITALIZE($user)} пытается силой засунуть вас в утилизационный люк!
+# putting people in
+disposal-unit-being-inserted = { CAPITALIZE($user) } пытается затолкать вас в мусоропровод!
+disposal-self-insert-verb-get-data-text = Залезть внутрь
+disposal-eject-verb-get-data-text = Извлечь всё

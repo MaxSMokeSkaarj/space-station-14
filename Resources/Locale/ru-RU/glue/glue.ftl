@@ -1,5 +1,5 @@
-glue-success = { CAPITALIZE(THE($target))} был покрыт клеем!
-glued-name-prefix = приклеенный {$baseName}
-glue-failure = Невозможно покрыть {THE($target)} клеем!
+glue-success = Вы покрыли { $target } клеем!
+glued-name-prefix = липкий { $baseName }
+glue-failure = Не удалось покрыть { $target } клеем.
 glue-verb-text = Нанести клей
-glue-verb-message = Нанести клей на объект
+glue-verb-message = Покрыть предмет клеем

@@ -1,7 +1,12 @@
-agent-id-no-new = Не было получено новых доступов от {THE($card)}.
-agent-id-new-1 = Получен один новый доступ от {THE($card)}.
-agent-id-new = Получено {$number} новых доступов от {THE($card)}.
+agent-id-no-new = { CAPITALIZE($card) } не дала новых доступов.
+agent-id-new-1 = { CAPITALIZE($card) } дала один новый доступ.
+agent-id-new =
+    { CAPITALIZE($card) } дала { $number } { $number ->
+        [one] новый доступ
+        [few] новых доступа
+       *[other] новых доступов
+    }.
 agent-id-card-current-name = Имя:
 agent-id-card-current-job = Должность:
-agent-id-card-job-icon-label = Иконка должности:
+agent-id-card-job-icon-label = Иконка:
 agent-id-menu-title = ID карта Агента

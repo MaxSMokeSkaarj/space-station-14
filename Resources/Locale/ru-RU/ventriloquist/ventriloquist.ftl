@@ -1,8 +1,7 @@
-ventriloquist-puppet-insert-hand = Вы вставляете руку в куклу.
-ventriloquist-puppet-remove-hand = Вы убираете руку от куклы.
-
-ventriloquist-puppet-cant-speak = Вы не можете говорить без вспомогательной руки.
-ventriloquist-puppet-inserted-hand = У вас есть вспомогательная рука.
-ventriloquist-puppet-removed-hand = Вы потеряли свою вспомогательную руку.
-ventriloquist-puppet-role-name = Марионетка
-ventriloquist-puppet-role-description = Стань болванкой, болван!
+ventriloquist-puppet-insert-hand = Вы вставляете свою руку в куклу.
+ventriloquist-puppet-remove-hand = Вы вытаскиваете свою руку из куклы.
+ventriloquist-puppet-cant-speak = Вы не можете говорить без руки помощи.
+ventriloquist-puppet-inserted-hand = У вас появилась рука помощи.
+ventriloquist-puppet-removed-hand = Вы потеряли свою руку помощи.
+ventriloquist-puppet-role-name = Кукла-чревовещатель
+ventriloquist-puppet-role-description = Станьте куклой-чревовещателем!

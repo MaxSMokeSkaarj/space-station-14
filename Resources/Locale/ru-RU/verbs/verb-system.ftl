@@ -1,10 +1,7 @@
-verb-system-null-server-response = Объект не в поле зрения. Вам нужно видеть его.
-
-
-# если глаголы имеют ряд целей (например, несколько объектов извлечения), вы можете
-# обычно просто используйте Entity.Name. Но это немного странно, когда нацеливаешься на себя
-verb-self-target-pronoun = Вы сами
-
+verb-system-null-server-response = Сущность не в поле зрения. Вы не должны видеть этого.
+# if verbs have a range of targets (e.g., multiple ejectables) you can
+# usually just use Entity.Name. But it is a bit odd when targeting yourself
+verb-self-target-pronoun = Вы
 
 # verb categories & common verbs. These appear across multiple systems, so they may as well go here.
 
@@ -18,17 +15,16 @@ verb-categories-unbuckle = Отстегнуть
 verb-categories-rotate = Повернуть
 verb-categories-smite = Покарать
 verb-categories-tricks = Трюки
-verb-categories-transfer = Установите сумму серевода
+verb-categories-transfer = Перемещаемое кол-во
 verb-categories-split = Разделить
 verb-categories-instrument-style = Стиль инструмента
 verb-categories-channel-select = Каналы
-verb-categories-set-sensor = Датчик
+verb-categories-set-sensor = Датчики
 verb-categories-timer = Установить задержку
 verb-categories-lever = Рычаг
-verb-categories-select-type = Выберите тип
-verb-categories-fax = Установить пункт назначения
+verb-categories-select-type = Выбрать тип
+verb-categories-fax = Задать место назначения
 verb-categories-power-level = Уровень мощности
-
 verb-common-toggle-light = Переключить свет
 verb-common-close = Закрыть
 verb-common-open = Открыть

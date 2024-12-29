@@ -1,1 +1,1 @@
-emp-disabled-comp-on-examine = [color=lightblue]Он нарушен электрическим полем... [/color]
+emp-disabled-comp-on-examine = [color=lightblue]Работа нарушена электрическим полем... [/color]
