@@ -15,7 +15,7 @@ RELEASE_DIR = "release"
 # Forks should change these to publish to their own infrastructure.
 #
 ROBUST_CDN_URL = "https://ss14.smokeofanarchy.ru/cdn/"
-FORK_ID = "sandbox"
+FORK_ID = "main"
 
 def main():
     session = requests.Session()
