@@ -6,3 +6,6 @@
 	path = Corvax-SS14
 	url = https://github.com/space-syndicate/space-station-14
 	branch = master
+[submodule "Resources/Locale/ru-RU"]
+	path = Resources/Locale/ru-RU
+	url = ssh://git@github.com/MaxSMokeSkaarj/SMoA-SS14-RU
