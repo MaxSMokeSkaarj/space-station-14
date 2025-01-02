@@ -1,0 +1,12 @@
+- type: entity
+  name: Штамп Доминиона
+  categories: [ HideSpawnMenu ]
+  parent: RubberStampBaseAlt
+  id: RubberStampDominion
+  components:
+  - type: Stamp
+    stampedName: Доминион
+    stampedColor: "#8b0000"
+    stampState: "paper_stamp-dominion"
+  - type: Sprite
+    state: stamp-deny
