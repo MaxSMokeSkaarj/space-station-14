@@ -1,0 +1,6 @@
+- type: radioChannel
+  id: Dominion
+  name: Доминион
+  keycode: "d"
+  frequency: 1251
+  color: "#8b0000"
