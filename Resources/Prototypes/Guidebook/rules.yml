@@ -412,3 +412,9 @@
   ruleEntry: true
   priority: 100
   text: "/ServerInfo/Guidebook/ServerRules/BanDurations.xml"
+
+- type: guideEntry
+  id: SMoARuleset
+  name: guide-entry-rules-SMoA
+  ruleEntry: true
+  text: "/ServerInfo/Guidebook/ServerRules/PR.xml"
