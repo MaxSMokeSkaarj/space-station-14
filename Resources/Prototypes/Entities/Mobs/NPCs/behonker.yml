@@ -120,15 +120,6 @@
   name: behonker
   parent: BaseMobBehonker
   id: MobBehonkerElectrical
-  suffix: "Electrical"
-  components:
-  - type: ElectricityAnomaly
-  - type: Electrified
-
-- type: entity
-  name: behonker
-  parent: BaseMobBehonker
-  id: MobBehonkerPyro
   suffix: "Pyro"
   components:
     - type: PyroclasticAnomaly
@@ -140,6 +131,14 @@
       releaseOnMaxSeverity: true
       spawnRadius: 0
 
+- type: entity
+  name: behonker
+  parent: BaseMobBehonker
+  id: MobBehonkerPyro
+  suffix: "Electrical"
+  components:
+  - type: ElectricityAnomaly
+  - type: Electrified
 
 - type: entity
   name: behonker
