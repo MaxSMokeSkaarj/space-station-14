@@ -1,0 +1,20 @@
+- type: entity
+  name: Договор о союзе
+  categories: [ HideSpawnMenu ]
+  parent: Paper
+  id: PaperDominionOPZUnion
+  description: 'Лист белой оффисной бумаги.'
+  components:
+  - type: PaperVisuals
+    backgroundImagePath: "/Textures/Interface/Paper/paper_background_default.svg.96dpi.png"
+    contentImagePath: "/Textures/Interface/Paper/paper_content_lined.svg.96dpi.png"
+    backgroundPatchMargin: 16.0, 16.0, 16.0, 16.0
+    contentMargin: 16.0, 16.0, 16.0, 16.0
+  - type: Paper
+    content: "[head=2]Заключение союза[/head]\n1 Сторона: Доминион\n2 Сторона: Посольство ОПЗ\n\nУсловия 1 Стороны:\n1. Военный нейтралитет\n2. Нейтралитет связанный с политикой относительно рас.\n\nУсловия 2 Стороны:\n1. Военный нейтралитет\n2. Ненападение на структуры Посольства ОПЗ\n3. В случае надобности, помощь в обороне структур Посольства ОПЗ.\n\n\nПодпись 1 стороны: [italic]Макс Дымов.[/italic]\nПодпись 2 стороны: [italic]Алексей Артуров, Представитель Посольства ОПЗ[/italic]"
+    stampState: paper_stamp-lawyer
+    stampedBy:
+    - stampedColor: '#233D57FF'
+      stampedName: "Посольство ОПЗ"
+    - stampedColor: "#8b0000FF"
+      stampedName: "Доминион"
