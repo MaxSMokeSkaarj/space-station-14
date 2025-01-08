@@ -1,5 +1,6 @@
 - type: entity
-  name: Штамп Доминиона
+  name: Печать Доминиона
+  description: Если вы нашли это, то не советую носить это с собой
   categories: [ HideSpawnMenu ]
   parent: RubberStampBaseAlt
   id: RubberStampDominion
@@ -9,4 +10,6 @@
     stampedColor: "#8b0000"
     stampState: "paper_stamp-dominion"
   - type: Sprite
-    state: stamp-deny
+    sprite: SMoA/Objects/Misc/stamps.rsi
+    state: stamp-dominion
+
