@@ -1,0 +1,9 @@
+- type: entity
+  parent: BaseFlag
+  id: DominionFlag
+  name: Флаг Доминиона
+  description: Символ единства станций
+  components:
+  - type: Sprite
+    sprite: SMoA/Structures/Wallmounts/flags.rsi/
+    state: dominion_flag

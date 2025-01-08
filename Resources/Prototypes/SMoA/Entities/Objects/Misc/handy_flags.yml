@@ -1,0 +1,11 @@
+- type: entity
+  parent: BaseItem
+  id: DominionHandyFlag
+  name: Ручной флажок Доминиона
+  description: Символ едниства станций
+  components:
+  - type: Sprite
+    sprite: SMoA/Objects/Misc/Handy_Flags/dominion_handy_flag.rsi
+    state: icon
+  - type: Item
+    sprite: SMoA/Objects/Misc/Handy_Flags/dominion_handy_flag.rsi
