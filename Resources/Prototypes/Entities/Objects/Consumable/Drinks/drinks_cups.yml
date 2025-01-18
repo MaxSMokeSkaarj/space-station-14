@@ -163,15 +163,6 @@
 
 - type: entity
   parent: DrinkBaseMug
-  id: DrinkMugRainbow
-  name: rainbow mug
-  description: A rainbow mug. The colors are almost as blinding as a welder.
-  components:
-  - type: Sprite
-    sprite: Objects/Consumable/Drinks/mug_rainbow.rsi
-
-- type: entity
-  parent: DrinkBaseMug
   id: DrinkMugRed
   name: red mug
   description: A red and black mug.
