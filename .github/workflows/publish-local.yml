@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - name: Install dependencies
-      run: sudo apt-get install -y python3-paramiko python3-lxml python3-requests
+      run: sudo apt-get update && sudo apt-get install -y python3-paramiko python3-lxml python3-requests
 
     - uses: actions/checkout@v3.6.0
       with:
