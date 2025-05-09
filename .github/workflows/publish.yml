@@ -4,8 +4,8 @@ concurrency:
   group: publish
   cancel-in-progress: true
 
-on:
-  workflow_dispatch:
+on: [push]
+  #workflow_dispatch:
   # schedule:
    # - cron: '0 10 * * *'
 
