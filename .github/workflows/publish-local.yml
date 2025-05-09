@@ -1,7 +1,12 @@
 name: Publish
 
 concurrency:
+<<<<<<< HEAD:.github/workflows/publish-local.yml
   group: publish
+=======
+  group: publish-testing
+  cancel-in-progress: true
+>>>>>>> aafc166a363404a7c238db7cc75fa54a314dc6ba:.github/workflows/publish-testing.yml
 
 on: [push]
 
