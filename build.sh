@@ -12,18 +12,6 @@ function updateRobustToolbox() {
 	cd ..;
 };
 
-function updateCorvaxRepo() {
-	cd Corvax-SS14;
-	git pull origin master;
-	cd ..;
-};
-
-function updateMr0maksRepo() {
-	cd Mr0maks-SS14;
-	git pull origin master-ru;
-	cd ..;
-};
-
 function updateSS14() {
 	git add .;
 	git commit -m "Автообновление SS14";
@@ -33,11 +21,6 @@ function updateSS14() {
 	git pull origin main;
 	git pull fetch master;
 	git commit -m "Автообновление с вендора SS14";
-	#updateCorvaxRepo;
-	#cp Corvax-SS14/Resources/Locale/ru-RU Resources/Locale -r;
-	#cp Corvax-SS14/Resources/ServerInfo/Guidebook Resources/ServerInfo -r;
-	#git add .;
-	#git commit -m "Автообновление переводов";
 	git push origin main;
 	git push --mirror ssh://git@github.com/MaxSMokeSkaarj/space-station-14;
 };

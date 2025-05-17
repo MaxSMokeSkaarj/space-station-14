@@ -62,3 +62,6 @@ Resources/Maps/**.yml merge=mapping-merge-driver
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+
+build.sh merge=ours
+.github/workflow
