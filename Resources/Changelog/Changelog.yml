@@ -1,95 +1,4 @@
 ﻿Entries:
-- author: pheenty
-  changes:
-  - message: Fixed borgs being given the scream action.
-    type: Fix
-  id: 8004
-  time: '2025-02-25T13:45:19.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33038
-- author: spderman3333
-  changes:
-  - message: Electronic bar signs can now be destroyed.
-    type: Tweak
-  id: 8005
-  time: '2025-02-25T14:43:03.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35490
-- author: noirogen
-  changes:
-  - message: Added opacity slider for speech bubble backgrounds, text and speaker
-      names in the accessibility options.
-    type: Add
-  id: 8006
-  time: '2025-02-25T16:00:15.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35346
-- author: sowelipililimute
-  changes:
-  - message: Multiple inventory windows now close properly when you hit escape
-    type: Fix
-  id: 8007
-  time: '2025-02-25T16:40:39.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35040
-- author: Pumkin69
-  changes:
-  - message: Engineers can choose to not wear a headpiece now.
-    type: Fix
-  id: 8008
-  time: '2025-02-26T01:21:45.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35508
-- author: momochitters
-  changes:
-  - message: Lizard Plushie Slippers can now be constructed.
-    type: Add
-  id: 8009
-  time: '2025-02-26T02:18:42.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35381
-- author: keronshb
-  changes:
-  - message: Added the Wizard Antagonist!
-    type: Add
-  id: 8010
-  time: '2025-02-26T05:34:07.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35406
-- author: DieselMohawk
-  changes:
-  - message: Joints and Blunts now have randomized names.
-    type: Fix
-  id: 8011
-  time: '2025-02-26T23:37:31.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35544
-- author: Pumkin69
-  changes:
-  - message: Wizard now has a stamp.
-    type: Add
-  id: 8012
-  time: '2025-02-27T08:26:30.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35552
-- author: MilenVolf
-  changes:
-  - message: Insect and Ammonia blood can be broken down in centrifuge.
-    type: Tweak
-  id: 8013
-  time: '2025-02-27T10:05:29.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33614
-- author: qwerltaz
-  changes:
-  - message: The T-ray scanner now shows sub-floor entities above catwalks.
-    type: Tweak
-  - message: Sub-floor entities now retain the correct relative draw depth when using
-      a T-ray scanner.
-    type: Fix
-  id: 8014
-  time: '2025-02-27T10:46:10.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33012
-- author: Katzenminer, slarticodefast
-  changes:
-  - message: You now need to break eggs when using them for microwave recipes. Some
-      recipes have been adjusted accordingly.
-    type: Tweak
-  - message: Fixed a reagent duplication bug when microwaving eggs.
-    type: Fix
-  id: 8015
-  time: '2025-02-27T12:39:06.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/35459
 - author: kosticia
   changes:
   - message: Fire resists now can be examined.
@@ -3920,3 +3829,95 @@
   id: 8506
   time: '2025-05-17T07:45:44.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/37475
+- author: Ilya246
+  changes:
+  - message: Shuttles can now deal (weak) collision damage.
+    type: Add
+  id: 8507
+  time: '2025-05-17T17:11:08.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/37422
+- author: VlaDOS1408
+  changes:
+  - message: Fax UI Menu has been reworked and now behaves better on resizing
+    type: Tweak
+  id: 8508
+  time: '2025-05-17T17:20:11.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/33825
+- author: YotaXP
+  changes:
+  - message: Favorites selected in the construction menu will now persist between
+      rounds.
+    type: Tweak
+  id: 8509
+  time: '2025-05-17T17:37:19.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/35867
+- author: perryprog
+  changes:
+  - message: You can now link cutter machines to material silos.
+    type: Tweak
+  id: 8510
+  time: '2025-05-18T01:51:58.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/37554
+- author: Spangs04
+  changes:
+  - message: Resprited Telecomms
+    type: Tweak
+  id: 8511
+  time: '2025-05-18T02:10:56.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/35811
+- author: EmoGarbage404
+  changes:
+  - message: Added the salvage job board! This board allows salvagers to access and
+      complete a variety of jobs in order to rank up, earn spesos, and unlock new
+      cargo orders. Work hard and you too may become a Supreme Salvager.
+    type: Add
+  id: 8512
+  time: '2025-05-18T04:02:52.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/37549
+- author: EmoGarbage404
+  changes:
+  - message: Lathes can no longer connect to research servers on separate grids
+    type: Tweak
+  id: 8513
+  time: '2025-05-18T04:04:28.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/36821
+- author: 0leshe
+  changes:
+  - message: Changed max and minimum amount of jigger transfer amount
+    type: Tweak
+  id: 8514
+  time: '2025-05-18T04:14:23.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/35962
+- author: ArtisticRoomba
+  changes:
+  - message: Air grenades have been added! These can fill up a spaced room of ~30
+      tiles with fresh air. They can be found in Atmospheric Technician's lockers.
+      Use them wisely!
+    type: Add
+  id: 8515
+  time: '2025-05-18T04:32:52.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/37531
+- author: EmoGarbage404
+  changes:
+  - message: Various salvage equipment can now be unlocked through the job board and
+      purchased through cargo.
+    type: Add
+  - message: Space debris and the mining asteroid no longer generate salvage equipment
+    type: Tweak
+  id: 8516
+  time: '2025-05-18T06:40:59.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/37561
+- author: mrjajkes
+  changes:
+  - message: Add Blatantly Nuclear as a Nuke Song.
+    type: Add
+  id: 8517
+  time: '2025-05-18T07:30:20.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/35927
+- author: metalgearsloth
+  changes:
+  - message: Shuttles now are treated as rooved for daylight.
+    type: Tweak
+  id: 8518
+  time: '2025-05-18T07:47:35.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/36112
