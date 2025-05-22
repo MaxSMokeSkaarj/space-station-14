@@ -20,8 +20,9 @@ jobs:
     - name: Run script on centcomm
       uses: appleboy/ssh-action@master
       with:
-        host: centcomm.spacestation14.io
+        host: smokeofanarchy.ru
         username: robust-benchmark-runner
+        port: 2200
         key: ${{ secrets.BENCHMARK_RUNNER_KEY }}
         command_timeout: 100000m
         script: |
