@@ -19,7 +19,7 @@ function updateSS14() {
 	git add .;
 	git commit -m "Автообновление RobustToolbox";
 	git pull origin main;
-	git pull origin mirror;
+	git pull mirror main;
 	git pull fetch master;
 	git commit -m "Автообновление с вендора SS14";
 	git push origin main;
