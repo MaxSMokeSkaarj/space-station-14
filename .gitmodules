@@ -1,7 +1,3 @@
-[submodule "Corvax-SS14"]
-	path = Corvax-SS14
-	url = https://github.com/space-syndicate/space-station-14
-	branch = master
 [submodule "RobustToolbox"]
         path = RobustToolbox
         url = https://github.com/space-wizards/RobustToolbox.git
