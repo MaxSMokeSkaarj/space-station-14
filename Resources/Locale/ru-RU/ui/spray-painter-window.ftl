@@ -1,1 +1,1 @@
-pipe-painter-no-color-selected = (Цвет не выбран)
+pipe-painter-no-color-selected = (No color selected)

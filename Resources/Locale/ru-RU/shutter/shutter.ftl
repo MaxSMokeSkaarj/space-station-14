@@ -1,1 +1,1 @@
-shutter-rattle = *гряк-гряк*
+shutter-rattle = *rattle rattle*

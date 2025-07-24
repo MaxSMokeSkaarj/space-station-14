@@ -1,11 +1,10 @@
-agent-id-new =
-    { CAPITALIZE($card) } { $number ->
-        [0] не дала новых доступов
-        [one] дала { $number } новый доступ
-        [few] дала { $number } новых доступа
-       *[other] дала { $number } новых доступов
-    }.
-agent-id-card-current-name = Имя:
-agent-id-card-current-job = Должность:
-agent-id-card-job-icon-label = Иконка:
-agent-id-menu-title = ID карта Агента
+agent-id-new = { $number ->
+    [0] Didn't gain any new accesses from {THE($card)}.
+    [one] Gained one new access from {THE($card)}.
+   *[other] Gained {$number} new accesses from {THE($card)}.
+}
+
+agent-id-card-current-name = Name:
+agent-id-card-current-job = Job:
+agent-id-card-job-icon-label = Job icon:
+agent-id-menu-title = Agent ID Card
