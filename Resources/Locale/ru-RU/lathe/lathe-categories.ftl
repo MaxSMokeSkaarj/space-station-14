@@ -1,41 +1,46 @@
 # Generic
-lathe-category-circuitry = Circuitry
-lathe-category-clothing = Clothing
-lathe-category-lights = Lights
-lathe-category-machines = Machines
-lathe-category-parts = Parts
-lathe-category-robotics = Robotics
-lathe-category-tools = Tools
-lathe-category-weapons = Weapons
-
+lathe-category-circuitry = Электроника
+lathe-category-clothing = Одежда
+lathe-category-lights = Лампы
+lathe-category-machines = Машины
+lathe-category-parts = Компоненты
+lathe-category-tiles = Плитка
+lathe-category-tools = Инструменты
+lathe-category-weapons = Вооружение
 # Biogen
-lathe-category-food = Food
-lathe-category-chemicals = Chemicals
-lathe-category-materials = Materials
-
+lathe-category-food = Пища
+lathe-category-chemicals = Химикаты
+lathe-category-materials = Материалы
 # Circuit imprinter
-lathe-category-computers = Computers
-lathe-category-engineering = Engineering
-lathe-category-general = General
-lathe-category-medical = Medical
-lathe-category-research = Research
-lathe-category-security = Security
-lathe-category-service = Service
-lathe-category-supply = Supply
-
+lathe-category-computers = Компьютеры
+lathe-category-engineering = Инженерия
+lathe-category-general = Общее
+lathe-category-medical = Медицина
+lathe-category-research = Исследования
+lathe-category-security = Безопасность
+lathe-category-service = Сервис
+lathe-category-supply = Снабжение
+# Cutter
+lathe-category-concrete = Бетон
+lathe-category-dark = Тёмная
+lathe-category-maints = Техи
+lathe-category-steel = Стальная
+lathe-category-white = Белая
+lathe-category-wood = Деревянная
+lathe-category-marble = Мрамор
 # Science
-lathe-category-mechs = Mechs
-
-# Sec
-lathe-category-ammo = Ammo
-lathe-category-boxes = Boxes
-lathe-category-magazines = Magazines
-
+lathe-category-mechs = Мехи
+lathe-category-modules = Модули
+lathe-category-robotics = Робототехника
+# Security TechFab
+lathe-category-ammo = Боеприпасы
+lathe-category-boxes = Коробки
+lathe-category-magazines = Магазины
 # Uniform
-lathe-category-bedsheets = Bedsheets
-lathe-category-carpets = Carpets
-lathe-category-coats = Coats
-lathe-category-command = Command
-lathe-category-hats = Hats
-lathe-category-jumpsuits = Jumpsuits
-lathe-category-neck = Neck
+lathe-category-bedsheets = Одеяла
+lathe-category-carpets = Ковры
+lathe-category-coats = Халаты
+lathe-category-command = Командование
+lathe-category-hats = Шляпы
+lathe-category-jumpsuits = Комбинезоны
+lathe-category-neck = Шея
