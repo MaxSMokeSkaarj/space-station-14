@@ -10,3 +10,5 @@ borg-slot-documents-empty = Книги и бумаги
 borg-slot-soap-empty = Мыло
 borg-slot-instruments-empty = Музыкальные инструменты
 borg-slot-beakers-empty = Мензурки
+borg-slot-inflatable-door-empty = Inflatable Door
+borg-slot-inflatable-wall-empty = Inflatable Wall

@@ -1,2 +1,2 @@
-ent-ActionRetractableItemArmBlade = Рука-клинок
+﻿ent-ActionRetractableItemArmBlade = Рука-клинок
     .desc = Сбросьте свою плоть и преобразуйте её в плотное лезвие.
