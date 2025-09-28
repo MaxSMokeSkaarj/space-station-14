@@ -39,8 +39,6 @@
     - replay_load
     - saveconfig
     - chatwindow
-    - listplayer
-    - mapping
 
 - Flags: DEBUG
   Commands:
