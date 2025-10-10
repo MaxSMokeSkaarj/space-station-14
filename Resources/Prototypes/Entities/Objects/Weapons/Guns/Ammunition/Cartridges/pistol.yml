@@ -6,6 +6,7 @@
   components:
   - type: Tag
     tags:
+      - Cartridge
       - CartridgePistol
   - type: CartridgeAmmo
     proto: BulletPistol
