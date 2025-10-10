@@ -136,7 +136,6 @@
   - type: EmagLatheRecipes
     emagStaticPacks:
     - SecurityAmmoStatic
-    - SyndicateAmmoStatic
   - type: BlueprintReceiver
     whitelist:
       tags:
@@ -407,9 +406,6 @@
     - SecurityAmmo
     - SecurityWeapons
     - SecurityDisablers
-  - type: EmagLatheRecipes
-    emagStaticPacks:
-    - SyndicateAmmoStatic
   - type: MaterialStorage
     whitelist:
       tags:
@@ -446,9 +442,6 @@
       runningState: icon
       staticPacks:
       - SecurityAmmoStatic
-    - type: EmagLatheRecipes
-      emagStaticPacks:
-      - SyndicateAmmoStatic
     - type: MaterialStorage
       whitelist:
         tags:
