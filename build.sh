@@ -26,12 +26,23 @@ function updateSS14() {
 	#git push --mirror ssh://git@github.com/MaxSMokeSkaarj/space-station-14;
 };
 
-function buildServer() {
+function buildServerRelease() {
 	cd RobustToolbox;
        	git fetch --depth 1;
 	cd ..;
 	dotnet restore;
 	dotnet build Content.Packaging --configuration Release --no-restore /m;
+	dotnet run --project Content.Packaging server --platform win-x64 --platform linux-x64 --platform osx-x64 --platform linux-arm64;
+	dotnet run --project Content.Packaging client --no-wipe-release;
+
+};
+
+function buildServerDebug() {
+	cd RobustToolbox;
+       	git fetch --depth 1;
+	cd ..;
+	dotnet restore;
+	dotnet build Content.Packaging --configuration Debug --no-restore /m;
 	dotnet run --project Content.Packaging server --platform win-x64 --platform linux-x64 --platform osx-x64 --platform linux-arm64;
 	dotnet run --project Content.Packaging client --no-wipe-release;
 
