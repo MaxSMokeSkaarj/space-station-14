@@ -27,9 +27,9 @@ function updateSS14() {
 };
 
 function buildServerRelease() {
-	cd RobustToolbox;
-       	git fetch --depth 1;
-	cd ..;
+	#cd RobustToolbox;
+       	#git fetch --depth 1;
+	#cd ..;
 	dotnet restore;
 	dotnet build Content.Packaging --configuration Release --no-restore /m;
 	dotnet run --project Content.Packaging server --platform win-x64 --platform linux-x64 --platform osx-x64 --platform linux-arm64;
@@ -38,9 +38,9 @@ function buildServerRelease() {
 };
 
 function buildServerDebug() {
-	cd RobustToolbox;
-       	git fetch --depth 1;
-	cd ..;
+	#cd RobustToolbox;
+       	#git fetch --depth 1;
+	#cd ..;
 	dotnet restore;
 	dotnet build Content.Packaging --configuration Debug --no-restore /m;
 	dotnet run --project Content.Packaging server --platform win-x64 --platform linux-x64 --platform osx-x64 --platform linux-arm64;
