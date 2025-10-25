@@ -12,4 +12,4 @@ mech-energy-missing = Энергия: ОТСУТСТВУЕТ
 mech-slot-display = Доступно слотов: { $amount }
 mech-no-enter = Вы не можете пилотировать это.
 mech-eject-pilot-alert = { $user } вытаскивает пилота из { $item }!
-mech-construction-guide-string = All mech parts must be attached to the harness.
+mech-construction-guide-string = Все механические детали должны быть прикреплены к каркасу.

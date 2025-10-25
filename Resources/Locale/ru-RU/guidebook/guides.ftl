@@ -45,6 +45,7 @@ guide-entry-networking = Сетевые соединения
 guide-entry-access-configurator = Конфигуратор доступа
 guide-entry-power = Электропитание
 guide-entry-inspectingpower = Проверка электропитания
+guide-entry-deltapressure = Разница давления
 guide-entry-powerstorage = Хранение электроэнергии
 guide-entry-ramping = Регулировка
 guide-entry-voltagenetworks = Сети напряжения
