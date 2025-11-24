@@ -23,6 +23,7 @@ function updateSS14() {
 	git pull fetch master;
 	git commit -m "Автообновление с вендора SS14";
 	git push origin main;
+	git push mirror main;
 	#git push --mirror ssh://git@github.com/MaxSMokeSkaarj/space-station-14;
 };
 
