@@ -1,19 +1,18 @@
-using Content.Shared.StatusEffectNew;
 using Content.Server.Speech.Components;
-using Content.Shared.Speech;
+using Content.Shared.Speech.EntitySystems;
 using Robust.Shared.Random;
 
-namespace Content.Server.Speech.EntitySystems
-{
-    public sealed class BarkAccentSystem : EntitySystem
-    {
-        [Dependency] private readonly IRobustRandom _random = default!;
+namespace Content.Server.Speech.EntitySystems;
 
-        private static readonly IReadOnlyList<string> Barks = new List<string>{
+public sealed class BarkAccentSystem : RelayAccentSystem<BarkAccentComponent>
+{
+    [Dependency] private readonly IRobustRandom _random = default!;
+
+    private static readonly IReadOnlyList<string> Barks = new List<string>{
             " Гав!", " ГАВ", " вуф-вуф" // RU-Localization
         }.AsReadOnly();
 
-        private static readonly IReadOnlyDictionary<string, string> SpecialWords = new Dictionary<string, string>()
+    private static readonly IReadOnlyDictionary<string, string> SpecialWords = new Dictionary<string, string>()
         {
             { "ah", "arf" },
             { "Ah", "Arf" },
@@ -27,13 +26,14 @@ namespace Content.Server.Speech.EntitySystems
             // RU-Localization-End
         };
 
-        public override void Initialize()
+    protected override string AccentuateInternal(EntityUid uid, BarkAccentComponent comp, string message)
+    {
+        foreach (var (word, repl) in SpecialWords)
         {
-            SubscribeLocalEvent<BarkAccentComponent, AccentGetEvent>(OnAccent);
-            SubscribeLocalEvent<BarkAccentComponent, StatusEffectRelayedEvent<AccentGetEvent>>(OnAccentRelayed);
+            message = message.Replace(word, repl);
         }
 
-        public string Accentuate(string message)
+       public string Accentuate(string message)
         {
             foreach (var (word, repl) in SpecialWords)
             {
