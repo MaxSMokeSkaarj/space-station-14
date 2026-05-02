@@ -15,7 +15,6 @@ public sealed class OwOAccentSystem : RelayAccentSystem<OwOAccentComponent>
     private static readonly IReadOnlyDictionary<string, string> SpecialWords = new Dictionary<string, string>()
         {
             { "you", "wu" },
-            { "ты", "ти" }, // RU-Localizatio
         };
 
     public string Accentuate(string message)
@@ -25,31 +24,10 @@ public sealed class OwOAccentSystem : RelayAccentSystem<OwOAccentComponent>
             message = message.Replace(word, repl);
         }
 
-        public string Accentuate(string message)
-        {
-            foreach (var (word, repl) in SpecialWords)
-            {
-                message = message.Replace(word, repl);
-            }
-
-            return message.Replace("!", _random.Pick(Faces))
-                // RU-Localization-Start
-                .Replace("р", "в").Replace("Р", "В")
-                .Replace("л", "в").Replace("Л", "В")
-                // RU-Localization-End
-                .Replace("r", "w").Replace("R", "W")
-                .Replace("l", "w").Replace("L", "W");
-        }
-
-        private void OnAccent(Entity<OwOAccentComponent> entity, ref AccentGetEvent args)
-        {
-            args.Message = Accentuate(args.Message);
-        }
-
-        private void OnAccentRelayed(Entity<OwOAccentComponent> entity, ref StatusEffectRelayedEvent<AccentGetEvent> args)
-        {
-            args.Args.Message = Accentuate(args.Args.Message);
-        }
+        return message.Replace("!", _random.Pick(Faces))
+            .Replace("r", "w").Replace("R", "W")
+            .Replace("l", "w").Replace("L", "W");
+    }
 
     protected override string AccentuateInternal(EntityUid uid, OwOAccentComponent comp, string message)
     {
