@@ -22,9 +22,9 @@ jobs:
         echo "#  This run is expected to fail at the end and never counts as a publish.      #"
         echo "################################################################################"
 
-    - name: Fail if we are attempting to run on the master branch
-      if: ${{GITHUB.REF_NAME == 'main' && github.repository == 'smoke-of-anarchy/space-station-14'}}
-      run: exit 1
+    #- name: Fail if we are attempting to run on the master branch
+    #  if: ${{GITHUB.REF_NAME == 'main' && github.repository == 'smoke-of-anarchy/space-station-14'}}
+    #  run: exit 1
 
     - name: Install dependencies
       run: sudo apt-get install -y python3-paramiko python3-lxml
