@@ -10,8 +10,8 @@ namespace Content.Shared.Localizations
         [Dependency] private ILocalizationManager _loc = default!;
 
         // If you want to change your codebase's language, do it here.
-        private const string Culture = "ru-RU"; // RU-Localization
-        private const string FallbackCulture = "en-US"; // RU-Localization
+        private const string Culture = "ru-RU";
+
         /// <summary>
         /// Custom format strings used for parsing and displaying minutes:seconds timespans.
         /// </summary>
@@ -25,13 +25,9 @@ namespace Content.Shared.Localizations
 
         public void Initialize()
         {
-            var culture = new CultureInfo(Culture1);
-            var fallbackCulture = new CultureInfo(FallbackCulture); // RU-Localization
+            var culture = new CultureInfo(Culture);
 
             _loc.LoadCulture(culture);
-            _loc.LoadCulture(fallbackCulture); // RU-Localization
-            _loc.SetFallbackCulture(fallbackCulture); // RU-Localization
-            _loc.AddFunction(culture, "MANY", FormatMany); // RU-Localization: To prevent problems in auto-generated locale files
             _loc.AddFunction(culture, "PRESSURE", FormatPressure);
             _loc.AddFunction(culture, "POWERWATTS", FormatPowerWatts);
             _loc.AddFunction(culture, "POWERJOULES", FormatPowerJoules);
@@ -50,7 +46,7 @@ namespace Content.Shared.Localizations
              * localization you should NOT modify these, instead add new functions specific to your language/culture.
              * This ensures the english translations continue to work as expected when fallbacks are needed.
              */
-            var cultureEn = new CultureInfo("ru-RU");
+            var cultureEn = new CultureInfo("en-US");
 
             _loc.AddFunction(cultureEn, "MAKEPLURAL", FormatMakePlural);
             _loc.AddFunction(cultureEn, "MANY", FormatMany);
@@ -74,7 +70,7 @@ namespace Content.Shared.Localizations
         {
             var number = ((LocValueNumber) args.Args[0]).Value * 100;
             var maxDecimals = (int)Math.Floor(((LocValueNumber) args.Args[1]).Value);
-            var formatter = (NumberFormatInfo)NumberFormatInfo.GetInstance(CultureInfo.GetCultureInfo(Culture1)).Clone();
+            var formatter = (NumberFormatInfo)NumberFormatInfo.GetInstance(CultureInfo.GetCultureInfo(Culture)).Clone();
             formatter.NumberDecimalDigits = maxDecimals;
             return new LocValueString(string.Format(formatter, "{0:N}", number).TrimEnd('0').TrimEnd(char.Parse(formatter.NumberDecimalSeparator)) + "%");
         }
@@ -83,14 +79,12 @@ namespace Content.Shared.Localizations
         {
             var number = ((LocValueNumber) args.Args[0]).Value;
             var maxDecimals = (int)Math.Floor(((LocValueNumber) args.Args[1]).Value);
-            var formatter = (NumberFormatInfo)NumberFormatInfo.GetInstance(CultureInfo.GetCultureInfo(Culture1)).Clone();
+            var formatter = (NumberFormatInfo)NumberFormatInfo.GetInstance(CultureInfo.GetCultureInfo(Culture)).Clone();
             formatter.NumberDecimalDigits = maxDecimals;
             return new LocValueString(string.Format(formatter, "{0:N}", number).TrimEnd('0').TrimEnd(char.Parse(formatter.NumberDecimalSeparator)));
         }
 
         private static readonly Regex PluralEsRule = new("^.*(s|sh|ch|x|z)$");
-
-        public static global::System.String Culture1 => Culture;
 
         private ILocValue FormatMakePlural(LocArgs args)
         {
@@ -274,4 +268,3 @@ namespace Content.Shared.Localizations
         }
     }
 }
-
