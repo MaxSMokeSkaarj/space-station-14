@@ -54,6 +54,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Update changelog
+      continue-on-error: true
       run: |
         dotnet tool install --global SpaceWizards.ChangelogTool --version 1.0.8
         ss14-changelog update -d Resources/Changelog -s ${LAST_PUBLISH_SHA}
